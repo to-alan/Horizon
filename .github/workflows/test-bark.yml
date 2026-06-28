@@ -2,6 +2,10 @@ name: Test Bark Notification
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/test-bark.yml'
 
 jobs:
   test-bark:
