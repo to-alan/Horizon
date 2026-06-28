@@ -2,15 +2,8 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at 08:00 Asia/Shanghai (00:00 UTC)
+    - cron: '0 23 * * *'  # Runs daily at 07:00 Asia/Shanghai (23:00 UTC)
   workflow_dispatch:      # Allow manual trigger
-  push:
-    branches: [main]
-    paths:
-      - 'data/config.github.json'
-      - 'data/folo.manifest.json'
-      - 'scripts/sync_folo_opml.py'
-      - '.github/workflows/daily-summary.yml'
 
 jobs:
   daily-summary:
@@ -67,3 +60,35 @@ jobs:
           commit_message: "📝 Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true
+
+      - name: Notify Bark
+        env:
+          BARK_URL: ${{ secrets.BARK_URL }}
+          PAGE_URL: https://news.toalan.com
+        run: |
+          if [ -z "$BARK_URL" ]; then
+            echo "BARK_URL secret is not set; skipping Bark notification."
+            exit 0
+          fi
+
+          payload="$(python - <<'PY'
+          import json
+          import os
+
+          date = os.environ.get("DATE", "")
+          page_url = os.environ.get("PAGE_URL", "https://news.toalan.com")
+          print(json.dumps({
+              "title": "Horizon Daily 已生成",
+              "body": f"{date} 重点信息已更新，点击查看。",
+              "url": page_url,
+              "group": "Horizon",
+          }, ensure_ascii=False))
+          PY
+          )"
+
+          curl --fail --silent --show-error \
+            --retry 3 \
+            --max-time 20 \
+            --request POST "$BARK_URL" \
+            --header "Content-Type: application/json; charset=utf-8" \
+            --data "$payload"
