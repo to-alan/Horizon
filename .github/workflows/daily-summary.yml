@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - 'data/config.github.json'
+      - 'data/folo.manifest.json'
+      - 'scripts/sync_folo_opml.py'
       - '.github/workflows/daily-summary.yml'
 
 jobs:
@@ -33,6 +35,13 @@ jobs:
 
       - name: Prepare GitHub Actions config
         run: cp data/config.github.json data/config.json
+
+      - name: Sync Folo subscriptions
+        env:
+          FOLO_OPML_URL: ${{ secrets.FOLO_OPML_URL }}
+          FOLO_OPML_AUTH_HEADER: ${{ secrets.FOLO_OPML_AUTH_HEADER }}
+          FOLO_RSSHUB_HOST: rss.toalan.com
+        run: python scripts/sync_folo_opml.py --config data/config.json
 
       - name: Run Horizon
         env:
