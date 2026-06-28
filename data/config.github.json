@@ -70,6 +70,198 @@
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": true,
         "category": "linux-kernel"
+      },
+      {
+        "name": "Alan's Blog - 个人博客",
+        "url": "https://www.toalan.com/feed/",
+        "enabled": true,
+        "category": "Blog"
+      },
+      {
+        "name": "数字移民",
+        "url": "https://blog.shuziyimin.org/feed",
+        "enabled": true,
+        "category": "Blog"
+      },
+      {
+        "name": "零度解说",
+        "url": "https://www.freedidi.com/feed",
+        "enabled": true,
+        "category": "Blog"
+      },
+      {
+        "name": "户晨风",
+        "url": "https://rss.toalan.com/bilibili/user/video/49869761",
+        "enabled": true,
+        "category": "政建"
+      },
+      {
+        "name": "高剑犁 的 bilibili 动态",
+        "url": "https://rss.toalan.com/bilibili/user/dynamic/59104725",
+        "enabled": true,
+        "category": "政建"
+      },
+      {
+        "name": "NASA",
+        "url": "https://rss.toalan.com/nasa/apod",
+        "enabled": true,
+        "category": "星辰大海"
+      },
+      {
+        "name": "Telegram Blog",
+        "url": "https://rss.toalan.com/telegram/blog",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "少数派",
+        "url": "https://rss.toalan.com/sspai/index",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "微博热搜榜",
+        "url": "https://rss.toalan.com/weibo/search/hot",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "一觉醒来发生了什么 - 即刻圈子",
+        "url": "https://rss.toalan.com/jike/topic/text/553870e8e4b0cafb0a1bef68",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "有用经验",
+        "url": "https://yyjingyan.com/index.php/feed/",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "V2EX-最热主题",
+        "url": "https://rss.toalan.com/v2ex/topics/hot",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "BBC 中国",
+        "url": "https://feedmaker.kindle4rss.com/feeds/cn-bbc.xml",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "NodeSeek",
+        "url": "https://rss.nodeseek.com/",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "IT之家",
+        "url": "https://www.ithome.com/rss/",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "36氪 - 24小时热榜",
+        "url": "https://rss.toalan.com/36kr/hot-list",
+        "enabled": true,
+        "category": "资讯"
+      },
+      {
+        "name": "pixiv 日排行",
+        "url": "https://rss.toalan.com/pixiv/ranking/day",
+        "enabled": true,
+        "category": "uncategorized"
+      },
+      {
+        "name": "pixiv 周排行",
+        "url": "https://rss.toalan.com/pixiv/ranking/week",
+        "enabled": true,
+        "category": "uncategorized"
+      },
+      {
+        "name": "VPS信号旗播报 - Telegram Channel",
+        "url": "https://rss.toalan.com/telegram/channel/vps_xhq",
+        "enabled": true,
+        "category": "VPS"
+      },
+      {
+        "name": "安格视界",
+        "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_IqtIeZDp0t7cAxRWW6t9A",
+        "enabled": true,
+        "category": "VPS"
+      },
+      {
+        "name": "Twitter @OpenAI",
+        "url": "https://rss.toalan.com/twitter/user/OpenAI",
+        "enabled": true,
+        "category": "推特"
+      },
+      {
+        "name": "Twitter @Elon Musk",
+        "url": "https://rss.toalan.com/twitter/user/elonmusk",
+        "enabled": true,
+        "category": "推特"
+      },
+      {
+        "name": "机核",
+        "url": "https://www.gcores.com/rss",
+        "enabled": true,
+        "category": "游戏"
+      },
+      {
+        "name": "老高與小茉 Mr & Mrs Gao - YouTube",
+        "url": "https://rss.toalan.com/youtube/user/%40laogao/https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCMUnInmOkrWN4gof9KlhNmQ",
+        "enabled": true,
+        "category": "娱乐"
+      },
+      {
+        "name": "果宝Official 的 bilibili 空间",
+        "url": "https://rss.toalan.com/bilibili/user/video/3546569288714792",
+        "enabled": true,
+        "category": "娱乐"
+      },
+      {
+        "name": "川同学不穿童鞋 的 bilibili 动态",
+        "url": "https://rss.toalan.com/bilibili/user/dynamic/6065166",
+        "enabled": true,
+        "category": "娱乐"
+      },
+      {
+        "name": "大佬",
+        "url": "https://rss.toalan.com/bilibili/user/dynamic/8549577",
+        "enabled": true,
+        "category": "娱乐"
+      },
+      {
+        "name": "bilibili 排行榜-全站",
+        "url": "https://rss.toalan.com/bilibili/ranking/0",
+        "enabled": true,
+        "category": "娱乐"
+      },
+      {
+        "name": "澳大利亚签证官网",
+        "url": "https://rss.toalan.com/gov/immiau/news",
+        "enabled": true,
+        "category": "重要"
+      },
+      {
+        "name": "LINUX DO - 最新话题",
+        "url": "https://linux.do/latest.rss",
+        "enabled": true,
+        "category": "论坛"
+      },
+      {
+        "name": "小Lin说 - YouTube",
+        "url": "https://rss.toalan.com/youtube/user/%40xiao_lin_shuo",
+        "enabled": true,
+        "category": "Youtube"
+      },
+      {
+        "name": "不良林 - YouTube",
+        "url": "https://rss.toalan.com/youtube/user/%40bulianglin",
+        "enabled": true,
+        "category": "Youtube"
       }
     ],
     "reddit": {
