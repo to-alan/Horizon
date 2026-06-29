@@ -60,6 +60,30 @@
         "category": "github-trending"
       },
       {
+        "name": "GitHub Trending - Python Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
+        "enabled": true,
+        "category": "github-trending"
+      },
+      {
+        "name": "GitHub Trending - TypeScript Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/typescript.xml",
+        "enabled": true,
+        "category": "github-trending"
+      },
+      {
+        "name": "GitHub Trending - Rust Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/rust.xml",
+        "enabled": true,
+        "category": "github-trending"
+      },
+      {
+        "name": "GitHub Trending - Go Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/go.xml",
+        "enabled": true,
+        "category": "github-trending"
+      },
+      {
         "name": "Semianalysis",
         "url": "https://newsletter.semianalysis.com/feed",
         "enabled": true,
@@ -272,20 +296,60 @@
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
-          "min_score": 60
+          "fetch_limit": 15,
+          "min_score": 50
         },
         {
           "subreddit": "LocalLLaMA",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
-          "fetch_limit": 10,
+          "fetch_limit": 15,
           "min_score": 60
+        },
+        {
+          "subreddit": "OpenAI",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30
+        },
+        {
+          "subreddit": "artificial",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 50
+        },
+        {
+          "subreddit": "technology",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 500
+        },
+        {
+          "subreddit": "programming",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 150
+        },
+        {
+          "subreddit": "selfhosted",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 50
         }
       ],
       "users": [],
-      "fetch_comments": 10
+      "fetch_comments": 5
     },
     "telegram": {
       "enabled": true,
@@ -296,6 +360,20 @@
           "fetch_limit": 20
         }
       ]
+    },
+    "ossinsight": {
+      "enabled": true,
+      "period": "past_24_hours",
+      "languages": [
+        "All",
+        "Python",
+        "TypeScript",
+        "Rust",
+        "Go"
+      ],
+      "keywords": [],
+      "min_stars": 10,
+      "max_items": 30
     }
   },
   "filtering": {
