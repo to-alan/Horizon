@@ -78,10 +78,14 @@ class RSSScraper(BaseScraper):
 
             # Parse feed
             feed = feedparser.parse(response.text)
+            fallback_published_at = self._parse_date(feed.get("feed", {}))
+            fetched_at = datetime.now(timezone.utc)
 
             for entry in feed.entries:
                 # Parse published date
-                published_at = self._parse_date(entry)
+                published_at = (
+                    self._parse_date(entry) or fallback_published_at or fetched_at
+                )
                 if not published_at or published_at < since:
                     continue
 
