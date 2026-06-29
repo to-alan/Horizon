@@ -5,201 +5,270 @@ date: 2026-06-29
 lang: en
 ---
 
-> From 166 items, 9 important content pieces were selected
+> From 172 items, 12 important content pieces were selected
 
 ---
 
-1. [Anthropic Co-Founder Predicts Recursive Self-Improvement by 2028](#item-1) ⭐️ 9.0/10
-2. [GLM 5.2 beats Claude in cyber benchmarks](#item-2) ⭐️ 8.0/10
-3. [Using Claude Code for MRI Second Opinion](#item-3) ⭐️ 8.0/10
-4. [Professor calls out mass AI cheating on Brown exam](#item-4) ⭐️ 8.0/10
-5. [BYD Self-Driving Chip Xuanji A3 to Debut on Denza in 2027](#item-5) ⭐️ 8.0/10
-6. [DeepSeek DSpark Speeds Up LLM Inference by 60-80%](#item-6) ⭐️ 8.0/10
-7. [DeepSeek Begins Its Wealth-Creation Journey](#item-7) ⭐️ 8.0/10
-8. [CCTV Exposes Systematic Cheating in Phone Reviews](#item-8) ⭐️ 8.0/10
-9. [Google Limits Meta's Gemini Use Due to Compute Shortage](#item-9) ⭐️ 8.0/10
+1. [GLM 5.2 Beats Claude in Cybersecurity Benchmarks](#item-1) ⭐️ 8.0/10
+2. [Developer Uses Claude Code as Second Opinion on MRI](#item-2) ⭐️ 8.0/10
+3. [AI Cheating Scandal Erupts at Brown University](#item-3) ⭐️ 8.0/10
+4. [KIDS Act Mandates Age Verification for Online Access](#item-4) ⭐️ 8.0/10
+5. [Beijing leads first negotiation to help food delivery platforms reduce costs](#item-5) ⭐️ 8.0/10
+6. [Firmus and NVIDIA to Build 360MW AI Factory with 170K GPUs in Indonesia](#item-6) ⭐️ 8.0/10
+7. [AR Game Data Used for Military AI Sparks Security Warning](#item-7) ⭐️ 8.0/10
+8. [Major firms form alliance for battery circular economy design guide](#item-8) ⭐️ 8.0/10
+9. [Anthropic Co-Founder Predicts AI Self-Improvement by 2028](#item-9) ⭐️ 8.0/10
+10. [NVIDIA's 'Most Dangerous' Paper: AI Self-Replicating Code Evolves Without Limit](#item-10) ⭐️ 8.0/10
+11. [Interactive Tiny Transformer for Hands-On Learning](#item-11) ⭐️ 8.0/10
+12. [Google Limits Meta's Use of Gemini Due to Compute Shortage](#item-12) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Anthropic Co-Founder Predicts Recursive Self-Improvement by 2028](https://www.36kr.com/p/3872524038362121) ⭐️ 9.0/10
+## [GLM 5.2 Beats Claude in Cybersecurity Benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) ⭐️ 8.0/10
 
-Anthropic co-founder Jack Clark predicted at an Aspen Institute event that recursive self-improvement (RSI) will likely be achieved by the end of 2028, meaning AI could autonomously create a superior successor without human involvement. This prediction, with a claimed 60% probability based on data analysis, signals a concrete timeline for the potential emergence of artificial superintelligence (ASI), which could fundamentally transform AI development and society. Clark's forecast is supported by Google DeepMind CEO Demis Hassabis, who confirmed all leading AI labs are actively pursuing RSI. Recent benchmarks show Claude Opus 4.7 autonomously completed a 19-day continuous coding task with zero human intervention, demonstrating rapidly advancing autonomous capabilities.
+A new blog post reports that GLM 5.2, an open-source large language model from Z. AI, outperformed Claude in internal cybersecurity benchmarks. The model features 753B parameters and a 1M-token context window. This claim challenges the dominance of proprietary models like Claude in specialized domains, potentially offering a cost-effective alternative for cybersecurity tasks. However, the community debates benchmark reliability and practical implications. GLM 5.2 scores 81.0 on Terminal-Bench 2.1 and 62.1 on SWE-bench Pro, and is available via OpenRouter and Ollama. Despite impressive benchmarks, some users report inconsistent performance in repeated tests.
 
-rss · 36氪 - 24小时热榜 · Jun 28, 08:28
+hackernews · jms703 · Jun 28, 17:50 · [Discussion](https://news.ycombinator.com/item?id=48709670)
 
-**Background**: Recursive self-improvement (RSI) is a hypothetical process where an AI system can autonomously improve its own code or design, leading to an intelligence explosion. Many experts believe RSI could be a stepping stone to artificial superintelligence (ASI), an AI surpassing human intellect. Current AI models show increasing capability in autonomous task completion, fueling these predictions.
+**Background**: Large language models (LLMs) are increasingly used in cybersecurity for tasks like bug hunting and threat intelligence. Benchmarks measure their performance, but results can be gamed or may not reflect real-world scenarios. GLM 5.2 is a 753B-parameter model optimized for long-horizon agent tasks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement</a></li>
-<li><a href="https://www.anthropic.com/institute/recursive-self-improvement">When AI builds itself \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Superintelligence">Superintelligence - Wikipedia</a></li>
+<li><a href="https://ollama.com/library/glm-5.2">GLM - 5 . 2 is Z. ai ’s flagship model for the era of long-horizon tasks.</a></li>
+<li><a href="https://openrouter.ai/z-ai/glm-5.2">GLM 5 . 2 - API Pricing & Benchmarks | OpenRouter</a></li>
+<li><a href="https://www.buildfastwithai.com/blogs/glm-5-2-review-2026">GLM - 5 . 2 Review 2026: Z. ai 's 1M-Context AI Model</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#recursive self-improvement`, `#ASI`, `#Anthropic`, `#future of AI`
+**Discussion**: Community comments are mixed: some praise GLM 5.2 as a cost-effective daily driver for programming, while others question the benchmark methodology. A major concern is that agent benchmarks can be easily gamed, and the $160/month price is close to competitors like Claude and Codex.
+
+**Tags**: `#AI`, `#LLM`, `#cybersecurity`, `#benchmarks`
 
 ---
 
 <a id="item-2"></a>
-## [GLM 5.2 beats Claude in cyber benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/) ⭐️ 8.0/10
+## [Developer Uses Claude Code as Second Opinion on MRI](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐️ 8.0/10
 
-GLM 5.2, a large open-source model from Z.ai, has reportedly outperformed Claude on Semgrep's cybersecurity benchmarks, offering a 1M-token context window at competitive pricing. This highlights the rapid progress of open-source models in specialized domains like cybersecurity, potentially offering a cost-effective alternative to proprietary models and intensifying competition from Chinese AI labs. GLM 5.2 has 753 billion parameters and supports up to 1M tokens of context, but some community members note that while strong, it is not the best open model; DeepSeek V4 Pro has been more consistent.
+A developer used Claude Code, an AI coding assistant, to analyze his own MRI images and get a second opinion on a shoulder injury diagnosis. This highlights a growing trend of individuals using general-purpose AI tools for personal health analysis, raising important questions about trust, accuracy, and the role of AI in medical decision-making. The author provided MRI images to Claude Code and asked for interpretation; the tool's response conflicted with the original radiologist report, leading the author to question his treatment plan. However, comments from radiologists emphasize that AI models are not yet reliable for medical image interpretation due to limited training data in that domain.
 
-hackernews · jms703 · Jun 28, 17:50 · [Discussion](https://news.ycombinator.com/item?id=48709670)
+hackernews · engmarketer · Jun 28, 16:35 · [Discussion](https://news.ycombinator.com/item?id=48708941)
 
-**Background**: Large language models are increasingly evaluated on cybersecurity benchmarks to test their ability to detect vulnerabilities. Open-source models like GLM 5.2 are gaining traction as they offer transparency and lower cost compared to closed models from companies like OpenAI and Anthropic. The benchmark by Semgrep specifically tests models' ability to find bugs that the Mythos tool would find.
+**Background**: Claude Code is an AI-powered coding assistant developed by Anthropic, designed to help developers write code, debug, and automate tasks. It is not intended for medical diagnosis. The article describes an unconventional use of this tool for interpreting medical images, which is outside its intended purpose and raises concerns about over-reliance on AI in healthcare.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openrouter.ai/z-ai/glm-5.2">GLM 5 . 2 - API Pricing & Benchmarks | OpenRouter</a></li>
-<li><a href="https://www.buildfastwithai.com/blogs/glm-5-2-review-2026">GLM - 5 . 2 Review 2026: Z.ai's 1M-Context AI Model</a></li>
-<li><a href="https://www.infosecurityeurope.com/en-gb/blog/future-thinking/top-8-llm-benchmarks-for-cybersecurity-practices.html">Top Eight Large Language Models Benchmarks for Cybersecurity ...</a></li>
+<li><a href="https://code.claude.com/docs/en/overview">Overview - Claude Code Docs</a></li>
+<li><a href="https://claude.com/solutions/coding">Coding | Claude by Anthropic</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Hacker News discussion is lively, with many praising GLM 5.2 for its cost-effectiveness—one user reported spending only $18 for 374M tokens. Some users find it a good workhorse for daily programming. However, others caution that it is not the top performer across all tasks, and DeepSeek V4 Pro remains a strong contender. There is also debate about the hardware requirements for running the 753B model locally.
+**Discussion**: Radiologists in the comments caution that AI models like Claude Code are not trained on sufficient medical imaging data to match clinical expertise. Commenters also discuss the psychological comfort of questioning an AI without time pressure, contrasting it with the trust placed in human experts.
 
-**Tags**: `#GLM 5.2`, `#AI benchmarks`, `#open source LLMs`, `#programming`, `#cost efficiency`
+**Tags**: `#AI in healthcare`, `#Claude Code`, `#medical imaging`, `#LLM applications`, `#trust in AI`
 
 ---
 
 <a id="item-3"></a>
-## [Using Claude Code for MRI Second Opinion](https://antoine.fi/mri-analysis-using-claude-code-opus) ⭐️ 8.0/10
+## [AI Cheating Scandal Erupts at Brown University](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) ⭐️ 8.0/10
 
-A user shared their experience using Anthropic's Claude Code AI assistant to reanalyze their own MRI scan, highlighting AI's potential for accessible second opinions in medical imaging. This demonstrates a novel, practical application of large language models beyond coding, in a high-stakes medical domain, raising important questions about AI trust, accuracy, and the future of patient empowerment. The user compared the AI's analysis with their original clinical report and notes that while AI can provide 24/7 accessible analysis, it lacks the full 3D dataset and clinical context that a radiologist uses.
+A Brown University professor publicly denounced widespread AI-assisted cheating on an exam, highlighting a growing crisis in academic integrity. This incident underscores the urgent need for institutions to redesign assessments in the era of large language models, potentially shifting back to in-person handwritten exams and oral interviews. The professor from the Computer Science department noted that AI-generated answers were easily identifiable, yet the scale of misuse was alarming, prompting a debate on whether to adopt adversarial course design and in-person assessments.
 
-hackernews · engmarketer · Jun 28, 16:35 · [Discussion](https://news.ycombinator.com/item?id=48708941)
+hackernews · geox · Jun 28, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48708991)
 
-**Background**: Claude Code is an AI assistant developed by Anthropic, based on their Claude large language models. It is primarily designed for software development but can be applied to various tasks. Using AI for medical imaging second opinions is an emerging trend, with platforms like AI-PACS and Pearl AI Second Opinion offering AI-assisted diagnostics. However, such uses raise concerns about reliability, data privacy, and the need for clinical validation.
+**Background**: With the rise of powerful LLMs like GPT-4, students can now generate plausible answers for take-home exams, challenging traditional notions of academic integrity. Universities are grappling with how to adapt, with some proposing hand-written exams and one-on-one interviews to verify understanding.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
-<li><a href="https://ai-pacs.com/">AI PACS: Revolutionizing Medical Imaging with Smart Solutions</a></li>
+**Discussion**: Commenters largely agree that handwritten exams are necessary, though some note the tediousness of invigilation. Others argue from a game theory perspective that using AI is the rational choice under current incentives, and question the purpose of grading itself.
 
-</ul>
-</details>
-
-**Discussion**: The discussion includes a radiologist who notes the limitations of AI without full 3D data, and other users share personal experiences of misdiagnosis and the complexities of trust in AI versus human experts. Some commenters appreciate AI's accessibility and the ability to ask unlimited questions, while others caution that AI is not a deterministic function and diagnosis depends on many factors.
-
-**Tags**: `#AI in healthcare`, `#medical imaging`, `#Claude Code`, `#radiology`, `#AI trust`
+**Tags**: `#AI`, `#education`, `#academic integrity`, `#exams`, `#cheating`
 
 ---
 
 <a id="item-4"></a>
-## [Professor calls out mass AI cheating on Brown exam](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html) ⭐️ 8.0/10
+## [KIDS Act Mandates Age Verification for Online Access](https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online) ⭐️ 8.0/10
 
-A Brown University professor publicly denounced a mass AI-assisted cheating incident on a recent exam, stating that a large portion of students used generative AI to complete take-home, closed-book assessments. This incident highlights the urgent challenge AI poses to academic integrity, forcing universities to rethink assessment methods and potentially reshaping how education evaluates student learning. The professor's research area is game theory, and the exam was a take-home, closed-book format, which some community members argue is inherently incompatible with AI-era expectations.
+The KIDS Act, introduced in the U.S. Congress, proposes mandatory age verification for accessing online platforms, sparking debates on privacy and effectiveness. If enacted, this law could fundamentally alter how users access the internet, potentially undermining anonymity and setting a precedent for government-mandated identity checks online. The bill is sponsored by Reps. Brett Guthrie (R-KY) and Frank Pallone (D-NJ), and has been criticized for privacy risks and potential data breaches, as seen with earlier age verification systems.
 
-hackernews · geox · Jun 28, 16:41 · [Discussion](https://news.ycombinator.com/item?id=48708991)
+hackernews · bilsbie · Jun 28, 11:56 · [Discussion](https://news.ycombinator.com/item?id=48706560)
 
-**Background**: Generative AI tools like ChatGPT can produce human-like text, making them attractive for cheating on take-home assignments. Universities are experimenting with in-person handwritten exams, oral interviews, and adversarial curriculum design to counteract AI fraud. Detection tools such as Turnitin and Originality.AI exist but are not foolproof.
+**Background**: Online age verification typically requires users to submit personal identification documents or use third-party services, raising concerns about data security and civil liberties. The internet currently lacks a built-in age-verification mechanism, making it easy for minors to circumvent restrictions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.eklavvya.com/blog/prevent-cheating-online-exams/">Stop Online Exam Cheating in 2026: 15 AI - Powered Methods</a></li>
-<li><a href="https://nmu.edu/ctl/academic-dishonesty-using-generative-ai">Academic Dishonesty Using Generative AI | Center for Teaching and Learning</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Age_verification">Age verification - Wikipedia</a></li>
+<li><a href="https://hyperverge.co/blog/how-does-age-verification-works-online/">How Does Age Verification Work Online? A Complete Guide</a></li>
+<li><a href="https://ondato.com/blog/what-is-age-verification/">Age Verification: How It Works and Key Approaches Explained | Ondato</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Comments reveal a range of perspectives: some advocate for in-person handwritten exams and adversarial course design, others question the purpose of grading itself, and a few note that game theory suggests using AI is rational when peers do. There is broad agreement that AI is not the root problem but a symptom of outdated assessment methods.
+**Discussion**: Commenters expressed skepticism, noting that research on social media's harm to children is inconclusive, and questioned the sudden international push for age verification, suspecting lobbying by special interest groups. Others highlighted that parents already have tools to control children's device usage.
 
-**Tags**: `#AI`, `#education`, `#academic integrity`, `#cheating`, `#university`
+**Tags**: `#privacy`, `#age verification`, `#internet regulation`, `#children's safety`, `#policy`
 
 ---
 
 <a id="item-5"></a>
-## [BYD Self-Driving Chip Xuanji A3 to Debut on Denza in 2027](https://www.ithome.com/0/969/681.htm) ⭐️ 8.0/10
+## [Beijing leads first negotiation to help food delivery platforms reduce costs](https://www.ithome.com/0/969/776.htm) ⭐️ 8.0/10
 
-BYD plans to first deploy its self-developed autonomous driving chip Xuanji A3 on Denza brand production vehicles in 2027, according to a report. The chip was officially released in May 2026 and supports L3/L4 autonomous driving. This marks a significant step in BYD's vertical integration strategy for autonomous driving hardware, potentially reducing reliance on external suppliers. The 2027 timeline reflects the lengthy validation process for automotive-grade chips, but the move strengthens BYD's competitiveness in smart EV features. The Xuanji A3 is China's first 4nm automotive-grade autonomous driving chip. Three chips together deliver over 2100 TOPS of computing power, and BYD claims 100% improvement in computing power utilization through deep algorithm optimization.
+Beijing's market regulator established a new consultation mechanism for the platform economy and held the first negotiation with Meituan, Taobao Flash Purchase, and JD Delivery to help restaurants reduce costs and increase profits. This marks a regulatory shift in China's food delivery market, addressing intense competition and high costs that have burdened millions of restaurants. The agreement on subsidies, fees, and delivery times could reshape platform practices and benefit both businesses and consumers. The five-point consensus includes optimizing subsidies, reducing fees, rational marketing, providing support for 'transparent kitchen' initiatives, and abandoning minute-level speed competition (splitting times).
 
-rss · IT之家 · Jun 28, 10:34
+rss · IT之家 · Jun 29, 01:49
 
-**Background**: In the automotive industry, a self-driving chip typically requires at least one year from tape-out to mass production deployment, involving verification of the chip itself, algorithm deployment, and vehicle integration. BYD's Xuanji A3 is built on a 4nm process node, which balances performance and power efficiency for advanced driver-assistance systems.
+**Background**: In recent years, China's food delivery platforms have engaged in fierce price wars and subsidy battles, often forcing restaurants to bear high commission fees and delivery pressure. The term 'neijuan' (involution) describes this excessive competition. 'Mingchu Liangzao' (transparent kitchen) is a government-promoted program where restaurants publicly display their kitchens via video. 'Minute-level speed competition' refers to platforms racing to deliver in the shortest possible time, potentially compromising safety and quality.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://k.sina.com.cn/article_5999834179_1659e3443020031ggk.html?from=tech">比亚迪发布中国首款4nm智驾 芯 片 璇 玑 A 3 ，夯实智能化下半场算力底座</a></li>
-<li><a href="https://www.autohome.com.cn/article?id=wfBdQb-06to=">【图】事故兜底+自研 芯 片 比亚迪驾驶辅助这么强了吗？_ 汽车之家</a></li>
-<li><a href="https://www.msn.com/zh-cn/autos/通用/比亚迪发布中国首款4nm智驾芯片璇玑a3/ar-AA24gYB2">比亚迪发布中国首款4nm智驾 芯 片 璇 玑 A 3</a></li>
+<li><a href="https://scjgj.beijing.gov.cn/zwxx/scjgdt/202606/t20260629_4733520.html">北京市率先建立平台经济“破卷向善”协商对话机制，围绕餐饮外卖商家降...</a></li>
+<li><a href="https://society.yunnan.cn/system/2026/06/29/034059689.shtml">北京率先启动平台“破卷”对话机制，三大外卖平台承诺为商家减负</a></li>
+<li><a href="https://beijing.qianlong.com/2026/0629/8689501.shtml">北京率先启动平台“破卷”对话机制，三大外卖平台承诺为商家减负</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#autonomous driving`, `#BYD`, `#chip`, `#automotive`, `#AI`
+**Tags**: `#platform economy`, `#food delivery`, `#regulation`, `#competition`, `#China`
 
 ---
 
 <a id="item-6"></a>
-## [DeepSeek DSpark Speeds Up LLM Inference by 60-80%](https://www.36kr.com/p/3872317927766915) ⭐️ 8.0/10
+## [Firmus and NVIDIA to Build 360MW AI Factory with 170K GPUs in Indonesia](https://www.ithome.com/0/969/763.htm) ⭐️ 8.0/10
 
-DeepSeek has released DSpark, a technique combining semi-autoregressive generation with confidence-based scheduling to accelerate LLM inference by 60-80% and reduce server crashes during peak loads. This breakthrough significantly reduces inference cost and improves user experience, making AI services more scalable and reliable. It could set a new standard for efficient LLM deployment. DSpark uses a draft model to generate multiple candidate tokens in bulk, then the target model verifies them with a confidence-based scheduling mechanism that dynamically adjusts verification length based on server load. The technique guarantees zero quality loss due to the rejection sampling property.
+Australian cloud provider Firmus announced a partnership with NVIDIA to build a 360MW liquid-cooled AI factory in Batam, Indonesia, deploying 170,000 NVIDIA GPUs across multiple generations including Grace Blackwell and Vera Rubin, with deliveries scheduled over the next two years. This massive infrastructure investment signals the accelerating global race to build AI computing capacity, with Firmus expecting $25–30 billion in revenue from committed offtake agreements in the first six years, highlighting the immense demand for AI training and inference at scale. The factory will use NVIDIA's DSX platform for design and operation, and the GPU count includes both current-generation Blackwell and future Vera Rubin architectures. Firmus has a strategic partnership with NVIDIA extending to 2034, and NVIDIA participated in Firmus's equity financing in April 2024.
 
-rss · 36氪 - 24小时热榜 · Jun 28, 05:33
+rss · IT之家 · Jun 29, 01:37
 
-**Background**: Large language models generate text auto-regressively, producing one token at a time, which is inherently slow and underutilizes GPU hardware. Speculative decoding accelerates this by using a smaller draft model to propose multiple tokens, which the larger model then accepts or rejects in parallel. DSpark introduces semi-autoregressive generation and confidence scheduling to further optimize efficiency under varying loads.
+**Background**: NVIDIA DSX is a platform that integrates reference designs, APIs, and software for building and operating AI factories optimized for lowest token cost. The Grace Blackwell and Vera Rubin architectures represent NVIDIA's latest GPU designs for AI workloads, with Vera Rubin announced in 2024 as the successor to Blackwell. AI factories are large-scale data centers specifically designed to train and run generative AI models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://medium.com/ai-science/speculative-decoding-make-llm-inference-faster-c004501af120">Speculative Decoding — Make LLM Inference... | Medium | AI Science</a></li>
-<li><a href="https://arxiv.org/pdf/2310.18813">The Synergy of Speculative Decoding and Batching in Serving Large ...</a></li>
-<li><a href="https://www.datacamp.com/tutorial/speculative-decoding">Speculative Decoding : A Guide With Implementation... | DataCamp</a></li>
+<li><a href="https://www.nvidia.com/en-us/data-center/products/dsx/">AI Factory Design, Simulation, and Operations | NVIDIA DSX Platform</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)">Blackwell (microarchitecture) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rubin_(microarchitecture)">Rubin (microarchitecture) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#DeepSeek`, `#speculative decoding`, `#LLM inference`, `#DSpark`, `#AI optimization`
+**Tags**: `#AI infrastructure`, `#NVIDIA GPU`, `#data center`, `#cloud computing`
 
 ---
 
 <a id="item-7"></a>
-## [DeepSeek Begins Its Wealth-Creation Journey](https://www.36kr.com/p/3871666646678408) ⭐️ 8.0/10
+## [AR Game Data Used for Military AI Sparks Security Warning](https://www.ithome.com/0/969/750.htm) ⭐️ 8.0/10
 
-DeepSeek has transitioned from a secretive AI lab to a commercial company, initiating large-scale hiring and securing 51 billion yuan in Series A funding at a post-money valuation of 400 billion yuan. This shift signals DeepSeek's entry into the competitive AI market, creating opportunities for wealth generation through employee stock options and driving the broader Chinese AI industry into a new phase of commercialization and talent growth. The funding round aims to solve employee stock option pricing and liquidity issues; DeepSeek has also formed a Harness team to compete globally in AI agents, targeting products like OpenAI's Codex and Anthropic's Claude Code.
+China's national security authority warned that a popular AR mobile game's AI company collected nearly 30 billion environmental scans from users, potentially using them to train AI models for military purposes due to ties with a foreign defense contractor. This revelation underscores the severe risk of civilian data being militarized, threatening personal privacy, industry trust, and national geospatial security, prompting urgent calls for stricter data governance. The AR game's data collection includes 3D point cloud scanning, high-precision GPS coordinates, and real-time uploads, enabling precise reconstruction of indoor spaces and user movements, far exceeding traditional photography.
 
-rss · 36氪 - 24小时热榜 · Jun 28, 01:17
+rss · IT之家 · Jun 29, 00:51
 
-**Background**: Until recently, DeepSeek operated as a research lab funded by its founder's quantitative hedge fund, releasing papers and models without seeking external investment. The company's founder, Liang Wenfeng, maintained a low profile. With this funding round and hiring spree, DeepSeek is now adopting a conventional corporate structure, including staff for product management and agent commercialization.
-
-**Tags**: `#AI`, `#DeepSeek`, `#funding`, `#commercialization`, `#China`
-
----
-
-<a id="item-8"></a>
-## [CCTV Exposes Systematic Cheating in Phone Reviews](https://weibo.com/2656274875/5314693197725859) ⭐️ 8.0/10
-
-CCTV’s investigation reveals that smartphone manufacturers provide specially configured review units that detect reviewers via firmware and remotely activate performance-boosting profiles to artificially inflate benchmark results and user experience. This systematic fraud undermines the credibility of tech journalism and misleads consumers into purchasing products based on fabricated performance. It exposes a sophisticated three-layer cheating scheme (hardware selection, firmware detection, cloud control) that is difficult for ordinary users to detect, posing significant challenges for regulation and consumer protection. The cheating system includes three layers: hardware selection (special review units), firmware-based reviewer identification (auto-enabling high-performance mode), and cloud remote configuration (adjusting CPU, brightness, and loading only UI skeletons instead of full apps). The fraud is designed to be invisible during normal use, making forensic verification extremely difficult.
-
-telegram · zaihuapd · Jun 28, 01:37
-
-**Background**: Smartphone reviews heavily influence consumer purchasing decisions. Manufacturers have long been suspected of providing “review units” that outperform retail units. The disclosed multi-layer cheating mechanism exploits firmware and cloud infrastructure to dynamically alter device behavior only when a known reviewer is detected, a form of deception much harder to catch than static hardware tweaks.
-
-**Tags**: `#tech journalism`, `#cheating`, `#mobile reviews`, `#consumer protection`, `#performance manipulation`
-
----
-
-<a id="item-9"></a>
-## [Google Limits Meta's Gemini Use Due to Compute Shortage](https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378) ⭐️ 8.0/10
-
-Google restricted Meta's access to its Gemini AI model in March 2025, as Meta's compute demand exceeded what Google could supply. The limitation has delayed some of Meta's internal AI projects. This highlights the intensifying AI compute bottleneck, where even major tech companies face resource constraints. It may accelerate Meta's pivot to self-developed models like Muse Spark, reducing reliance on external providers. The restriction remains in effect. Meta has encouraged employees to use AI tokens more efficiently and is prioritizing its new Muse Spark model to reduce reliance on external models.
-
-telegram · zaihuapd · Jun 28, 07:38
-
-**Background**: AI tokens are units of computational consumption in AI services, analogous to API calls. Cloud providers allocate compute capacity to customers; when demand outstrips supply, they ration usage. Meta, which lacks its own cloud business, relies heavily on partners for AI compute while investing heavily in its own data centers.
+**Background**: Augmented reality games overlay virtual objects on the real world using smartphone cameras and sensors. To function, they continuously scan the environment, capturing visual and spatial data. This collected geospatial data, when aggregated, can be used to create detailed 3D models of sensitive areas, posing national security risks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.theguardian.com/technology/2026/apr/09/meta-first-ai-model-muse-sparks">Meta debuts new AI model in first test of costly... | The Guardian</a></li>
-<li><a href="https://blogs.nvidia.com/blog/ai-tokens-explained/">What Are AI Tokens ? The Language and Currency... | NVIDIA Blog</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/jun/12/pokemon-go-data-trained-ai-that-could-assist-military-drones-in-war-zones">Pokémon Go data trained AI that could assist military ... | The Guardian</a></li>
+<li><a href="https://medium.com/arway/point-clouds-and-its-significance-in-ar-155db2673865">Point Clouds and it’s significance in AR! | by Mayank Raj | ARWAY | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI算力`, `#Gemini`, `#Meta`, `#Google`, `#行业动态`
+**Tags**: `#data security`, `#AR technology`, `#national security`, `#privacy`, `#military use`
+
+---
+
+<a id="item-8"></a>
+## [Major firms form alliance for battery circular economy design guide](https://www.ithome.com/0/969/728.htm) ⭐️ 8.0/10
+
+CATL, BMW, Renault, Volvo, Google, Xiaomi, and others have launched the Global Energy Circular Economy Alliance and initiated a development plan for a Battery Recyclability Design Guide, expected to be released in 2027. This collaborative effort by major global companies could set industry-wide standards for battery recyclability, influencing regulations and design practices, and accelerating the transition to a circular economy for batteries. The guide will cover design principles for easy disassembly, diagnosis, repair, remanufacturing, and material recycling, and establish unified evaluation criteria for battery history, health status, degradation data, and recycling responsibility.
+
+rss · IT之家 · Jun 28, 14:29
+
+**Background**: Battery circular economy aims to maximize resource efficiency and minimize environmental impact by extending battery life through repair, reuse, remanufacturing, and recycling. Recyclability design involves intentionally planning battery structures to facilitate efficient material recovery. This alliance builds on a growing global push for sustainable battery lifecycle management.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://rmi.org/battery-circular-economy-initiative/">Battery Circular Economy Initiative - RMI</a></li>
+<li><a href="https://learn.sustainability-directory.com/area/battery-recyclability-design/">Battery Recyclability Design → Area → Sustainability</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#battery recycling`, `#circular economy`, `#electric vehicles`, `#sustainability`, `#energy storage`
+
+---
+
+<a id="item-9"></a>
+## [Anthropic Co-Founder Predicts AI Self-Improvement by 2028](https://www.36kr.com/p/3872524038362121) ⭐️ 8.0/10
+
+Anthropic co-founder Jack Clark predicted that recursive self-improvement (RSI) will likely become a reality by the end of 2028, allowing AI to autonomously invent and build superior successors without human researchers. Separately, Google DeepMind CEO Demis Hassabis confirmed that all leading AI labs are actively pursuing RSI. This timeline from prominent AI figures signals a potential paradigm shift toward artificial superintelligence (ASI), which could impact global economies, security, and governance. The confirmation that major labs are focused on RSI suggests that the field is rapidly approaching a critical milestone. Clark assigned a 60% probability to his prediction, based on analysis of hundreds of public AI development data. The MirrorCode benchmark showed Claude Opus 4.7 rebuilding a 16,000-line Go codebase in 14 hours for $251, and one task ran AI continuously for 19 days without human intervention.
+
+rss · 36氪 - 24小时热榜 · Jun 28, 08:28
+
+**Background**: Recursive self-improvement refers to a process where an AI system rewrites its own code to become more intelligent, potentially triggering an intelligence explosion leading to superintelligence. Artificial superintelligence (ASI) is a hypothetical AI that surpasses human intelligence in all domains. The 2028 timeline is based on accelerating AI capabilities, such as the ability to perform tasks lasting over 16 hours, which already exceeds many benchmarks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Recursive_self-improvement">Recursive self-improvement</a></li>
+<li><a href="https://www.ibm.com/think/topics/artificial-superintelligence">What Is Artificial Superintelligence? | IBM</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#RSI`, `#AGI`, `#Anthropic`, `#DeepMind`
+
+---
+
+<a id="item-10"></a>
+## [NVIDIA's 'Most Dangerous' Paper: AI Self-Replicating Code Evolves Without Limit](https://www.36kr.com/p/3872518454776841) ⭐️ 8.0/10
+
+NVIDIA and Cambridge researchers introduced the Red Queen Gödel Machine (RQGM), a framework where AI agents co-evolve with their own evaluators, enabling recursive self-improvement without requiring mathematical proof of each change. RQGM overcomes a key limitation of previous self-improving AI by allowing the evaluation criteria to evolve alongside the agents, potentially accelerating progress toward artificial superintelligence (ASI). The system uses a process called 'controlled utility evolution' where evaluators are frozen within epochs, and only replaced if they statistically outperform previous evaluators on held-out anchor data. The paper reports improvements in code generation (from 69.9% to 71.7% pass rate) and scientific paper writing (acceptance rate from 21.8% to 40.5%).
+
+rss · 36氪 - 24小时热榜 · Jun 28, 07:33
+
+**Background**: The Gödel machine, proposed by Jürgen Schmidhuber in 2003, is a theoretical self-improving AI that must mathematically prove each self-modification is beneficial—a requirement that makes it impractical. Recent variants like the Darwin Gödel Machine (DGM) used evolution instead of proof, but kept the evaluator fixed. RQGM breaks this by co-evolving both agents and evaluators.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/pdf/2606.26294">The Red Queen Gödel Machine : Co-Evolving Agents and Their...</a></li>
+<li><a href="https://arxiv.org/abs/2505.22954">[2505.22954] Darwin Godel Machine: Open-Ended Evolution of Self ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Safety`, `#Self-Improving AI`, `#NVIDIA`, `#Machine Learning`
+
+---
+
+<a id="item-11"></a>
+## [Interactive Tiny Transformer for Hands-On Learning](https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/) ⭐️ 8.0/10
+
+The author created a fully interactive, editable tiny transformer in a single HTML file, allowing users to see and modify every weight and vector, with live recomputation of the forward pass. This tool provides an intuitive, visual way to understand the inner workings of a transformer, which is valuable for students, educators, and self-learners. It bridges the gap between abstract theory and concrete computation. The transformer has a vocabulary of 6 words, 3-dimensional embeddings, and a single attention head and feed-forward block. All weights are random and untrained, and the page includes a randomize button to reset them.
+
+reddit · r/MachineLearning · /u/DanielMoGo · Jun 28, 12:35
+
+**Background**: A transformer is a neural network architecture that processes sequences using self-attention and feed-forward layers. The forward pass computes predictions from input embeddings through attention mechanisms and feed-forward networks. This tool demonstrates the forward pass step-by-step, making the calculations visible and editable.
+
+**Tags**: `#transformer`, `#education`, `#visualization`, `#interactive`, `#LLM`
+
+---
+
+<a id="item-12"></a>
+## [Google Limits Meta's Use of Gemini Due to Compute Shortage](https://www.ft.com/content/c5d52f72-71ef-40bc-bad3-61afdba8b378) ⭐️ 8.0/10
+
+In March, Google informed Meta that it could not fulfill Meta's requested capacity for the Gemini AI model due to compute constraints, and the restriction remains in place, disrupting Meta's internal AI projects. Meta has responded by urging employees to use AI tokens more efficiently and accelerating development of its own models. This incident highlights real-world AI compute capacity constraints between major tech players, revealing supply bottlenecks that affect strategic partnerships and internal development. It underscores the growing competition for GPU resources and the urgency for companies like Meta to invest in proprietary AI infrastructure. Meta lacks its own cloud business and is building large-scale data centers, committing $600 billion in U.S. investment by 2028. Google recently signed a $920 million monthly compute leasing deal with SpaceX and acknowledged near-term compute limitations in its April earnings call. Meta has begun prioritizing its new Muse Spark model to reduce reliance on external models.
+
+telegram · zaihuapd · Jun 28, 07:38
+
+**Background**: Gemini is a family of multimodal large language models developed by Google DeepMind, serving as the successor to LaMDA and PaLM 2. AI tokens are units of data (e.g., subwords or characters) processed by AI models during training and inference, and per-token pricing determines costs for generative AI applications. Meta, which does not operate its own public cloud, has been racing to build its own AI compute infrastructure and develop proprietary models like Muse Spark to reduce dependence on third-party providers.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model ) - Wikipedia</a></li>
+<li><a href="https://blogs.nvidia.com/blog/ai-tokens-explained/">What Are AI Tokens? The Language and Currency Powering Modern AI</a></li>
+<li><a href="https://www.aol.com/finance/meta-launches-muse-spark-ai-171109554.html">Meta launches Muse Spark AI model as part of its AI turnaround - AOL</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#Gemini`, `#Meta`, `#Google`, `#compute`
 
 ---
