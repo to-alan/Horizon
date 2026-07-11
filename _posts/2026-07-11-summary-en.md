@@ -5,702 +5,768 @@ date: 2026-07-11
 lang: en
 ---
 
-> From 301 items, 32 important content pieces were selected
+> From 284 items, 35 important content pieces were selected
 
 ---
 
-1. [Long March 10B achieves world-first net-based rocket recovery at sea](#item-1) ⭐️ 10.0/10
-2. [Apple Sues OpenAI for Stealing Trade Secrets via Ex-Employees](#item-2) ⭐️ 9.0/10
-3. [DSPy: Programming, Not Prompting, Language Models](#item-3) ⭐️ 9.0/10
-4. [Bun: All-in-one fast JavaScript runtime and toolchain](#item-4) ⭐️ 9.0/10
-5. [uv: A super-fast Python package manager in Rust](#item-5) ⭐️ 9.0/10
-6. [Microsoft Releases Native Port of TypeScript to Go](#item-6) ⭐️ 9.0/10
-7. [Tencent in Talks to Acquire AI Startup Manus from Meta](#item-7) ⭐️ 9.0/10
-8. [QuadRF: Open-source RF camera sees drones and WiFi through walls](#item-8) ⭐️ 8.0/10
-9. [NYC enacts 'click-to-cancel' law to combat deceptive subscriptions](#item-9) ⭐️ 8.0/10
-10. [Agent Skills: Production-Grade Workflows for AI Coders](#item-10) ⭐️ 8.0/10
-11. [Pocket TTS: Lightweight CPU-Only Text-to-Speech](#item-11) ⭐️ 8.0/10
-12. [GitHub repo leaks system prompts from major AI chatbots](#item-12) ⭐️ 8.0/10
-13. [Microsoft SkillOpt Trains Reusable Language Skills for Frozen LLM Agents](#item-13) ⭐️ 8.0/10
-14. [LMCache: KV Cache Layer for Faster LLM Inference](#item-14) ⭐️ 8.0/10
-15. [ByteDance Open-Sources DeerFlow 2.0 Superagent Framework](#item-15) ⭐️ 8.0/10
-16. [Notion Releases Official MCP Server with Simplified OAuth](#item-16) ⭐️ 8.0/10
-17. [RuView Turns WiFi Signals into Spatial Intelligence](#item-17) ⭐️ 8.0/10
-18. [OpenAI Releases Codex CLI Coding Agent](#item-18) ⭐️ 8.0/10
-19. [RustDesk: Open-Source Self-Hosted Remote Desktop in Rust](#item-19) ⭐️ 8.0/10
-20. [Oxc: A collection of high-performance JavaScript tools in Rust](#item-20) ⭐️ 8.0/10
-21. [Qdrant: High-Performance Vector Database in Rust](#item-21) ⭐️ 8.0/10
-22. [Kata Containers: Lightweight VMs for Container Security](#item-22) ⭐️ 8.0/10
-23. [Ory Kratos: Open-Source Cloud-Native Identity Management](#item-23) ⭐️ 8.0/10
-24. [MediaMTX: Open-source live media server and proxy](#item-24) ⭐️ 8.0/10
-25. [Anthropic Offers Free Claude Max 20x to Open Source Devs](#item-25) ⭐️ 8.0/10
-26. [BYD wins 11.275 GWh storage contract for world's largest solar-plus-storage project](#item-26) ⭐️ 8.0/10
-27. [EU Finds Meta's Instagram, Facebook Addictive, Risks Fine](#item-27) ⭐️ 8.0/10
-28. [GPT-5.6 Full Release and Codex Merged into ChatGPT](#item-28) ⭐️ 8.0/10
-29. [Meta's Muse Spark 1.1 Overtakes Grok 4.5 at Low Cost](#item-29) ⭐️ 8.0/10
-30. [Chinese Courts Rule Game Accounts Inheritable, Platform Bans Invalid](#item-30) ⭐️ 8.0/10
-31. [OpenAI, Google reportedly provided AI models to blacklisted Chinese firms via Singapore](#item-31) ⭐️ 8.0/10
-32. [SK Hynix Raises $26.5B in Largest Foreign IPO on Nasdaq](#item-32) ⭐️ 8.0/10
+1. [Bun: All-in-one fast JavaScript runtime and toolchain](#item-1) ⭐️ 9.0/10
+2. [Microsoft Releases GraphRAG: Graph-Based RAG System](#item-2) ⭐️ 9.0/10
+3. [Microsoft Announces Native Go Port of TypeScript Compiler](#item-3) ⭐️ 9.0/10
+4. [Transient assembly strategy enables minute-scale synthesis of platinum catalysts](#item-4) ⭐️ 9.0/10
+5. [Plant roots exhibit 'saprotropism' to avoid decaying matter](#item-5) ⭐️ 9.0/10
+6. [Humanoid robot performs world's first surgery on live pigs](#item-6) ⭐️ 9.0/10
+7. [vLLM v0.25.0: MRv2 Default, PagedAttention Removed](#item-7) ⭐️ 8.0/10
+8. [Scaling PgBouncer to 4x throughput with SO_REUSEPORT and peering](#item-8) ⭐️ 8.0/10
+9. [Prefer strict tables in SQLite](#item-9) ⭐️ 8.0/10
+10. [Hugging Face Releases Open-Source Speech-to-Speech Pipeline](#item-10) ⭐️ 8.0/10
+11. [NVIDIA Launches Verified Agent Skills Repository](#item-11) ⭐️ 8.0/10
+12. [Microsoft releases Agent Governance Toolkit for AI security](#item-12) ⭐️ 8.0/10
+13. [AgentScope 2.0: Production-Ready Framework for Transparent Multi-Agent Systems](#item-13) ⭐️ 8.0/10
+14. [LMCache: Fastest KV Cache Layer for LLM Inference](#item-14) ⭐️ 8.0/10
+15. [AUTOMATIC1111 Stable Diffusion WebUI Released](#item-15) ⭐️ 8.0/10
+16. [Vue 2 Reaches End of Life, Users Urged to Migrate to Vue 3](#item-16) ⭐️ 8.0/10
+17. [Voicebox: Open-Source AI Voice Studio for Local Voice Cloning](#item-17) ⭐️ 8.0/10
+18. [OpenAI Releases Codex CLI: Lightweight Local Coding Agent](#item-18) ⭐️ 8.0/10
+19. [NVIDIA Releases OpenShell: Open-Source Sandbox for AI Agents](#item-19) ⭐️ 8.0/10
+20. [Iroh: Rust QUIC Library with NAT Traversal](#item-20) ⭐️ 8.0/10
+21. [Biome: High-Performance Rust Toolchain for Web Projects](#item-21) ⭐️ 8.0/10
+22. [ParadeDB: Postgres extension for full-text and vector search](#item-22) ⭐️ 8.0/10
+23. [Google Releases ADK for Go: Open-Source Agent Toolkit](#item-23) ⭐️ 8.0/10
+24. [gVisor: Application Kernel for Containers](#item-24) ⭐️ 8.0/10
+25. [OpenTofu: Open-Source Fork of Terraform Gains Momentum](#item-25) ⭐️ 8.0/10
+26. [Brown professor suspects AI cheating after exam score plunge](#item-26) ⭐️ 8.0/10
+27. [ZhiPu Founder Announces 'Touch High' Plan to Prioritize AGI Research](#item-27) ⭐️ 8.0/10
+28. [Hackers Poison GitHub with Malicious Go Module Across 200+ Repos](#item-28) ⭐️ 8.0/10
+29. [Hidden Hot Spot Sensors Unlocked on RTX 50 GPUs: Local Temps Hit 107°C](#item-29) ⭐️ 8.0/10
+30. [U-Boot vulnerabilities since 2013 threaten millions of devices](#item-30) ⭐️ 8.0/10
+31. [AI Compute Oversupply Is a Myth, New Data Shows](#item-31) ⭐️ 8.0/10
+32. [VultronRetriever models achieve top MTEB rankings with offline mobile capability](#item-32) ⭐️ 8.0/10
+33. [SK Hynix CEO Warns of Worst-Ever Memory Shortage by 2027](#item-33) ⭐️ 8.0/10
+34. [Apple sues OpenAI for trade secret theft](#item-34) ⭐️ 8.0/10
+35. [Shanghai sets 2027 goal for high-quality brain control and clinical BCI](#item-35) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Long March 10B achieves world-first net-based rocket recovery at sea](https://weibo.com/7340734455/R814of1Ki) ⭐️ 10.0/10
+## [Bun: All-in-one fast JavaScript runtime and toolchain](https://github.com/oven-sh/bun) ⭐️ 9.0/10
 
-On July 10, China's Long March 10B rocket successfully launched from Hainan Commercial Space Launch Site and completed the world's first net-based recovery of its first stage at sea. This marks China's first controlled recovery of a rocket first stage and the first net-based recovery globally. This breakthrough demonstrates a new method for reusable rocket recovery using nets rather than landing legs, potentially reducing costs and complexity. It positions China as a leader in reusable rocket technology and could accelerate the deployment of large satellite constellations by lowering launch costs. The Long March 10B stands over 70 meters tall and has a takeoff mass of about 850 tons. Its first stage is powered by seven YF-100K LOX/kerosene engines, and the second stage uses a YF-219 LOX/methane engine. In its reusable configuration, it can deliver at least 16 tons to low Earth orbit.
+Bun is a new all-in-one JavaScript runtime, bundler, test runner, and package manager, designed as a drop-in replacement for Node.js. It was released in 2022 and has since gained significant traction for its speed and integrated toolchain. Bun dramatically reduces startup time and memory usage compared to Node.js, potentially reshaping the JavaScript ecosystem by simplifying development toolchains. Its all-in-one design eliminates the need for separate tools like Webpack, Jest, and npm, streamlining workflows for developers. Bun is written in Rust and uses JavaScriptCore (the engine behind Safari) instead of V8, providing faster startup and lower memory footprint. It supports TypeScript and JSX out of the box, and can run existing Node.js projects with minimal changes.
 
-telegram · zaihuapd · Jul 10, 04:36
+rss · GitHub Trending - Daily · Jul 11, 01:32
 
-**Background**: Rocket reusability is a key trend in reducing space launch costs. Traditionally, rockets are discarded after each use. SpaceX pioneered vertical landing of first stages, but net-based recovery uses a large net on a ship to catch the descending booster, offering an alternative approach. China has been developing its reusable rocket technology, and the Long March 10B is designed for commercial satellite launches.
+**Background**: JavaScript runtimes like Node.js and Deno execute JavaScript code outside a browser, enabling server-side development. Node.js, built on V8 and npm, has been the dominant runtime for over a decade, but its startup time and memory usage have been pain points. Bun aims to address these by leveraging Rust and JavaScriptCore for performance. A bundler combines multiple files into fewer, optimized files; a test runner automates testing; and a package manager handles dependencies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.spacechina.com/n25/n2014789/n2414549/c4647268/content.html">长十乙首飞成功 我国首次实现 运 载 火 箭 可控 回 收 _中国航天科技集团</a></li>
-<li><a href="https://zh.wikipedia.org/wiki/长征十号乙运载火箭">长征十号乙运载火箭 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://baike.baidu.com/item/长征十号乙/67672651">长征十号乙 - 百度百科</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bun_(software)">Bun (software) - Wikipedia</a></li>
+<li><a href="https://bun.com/">Bun — A fast all-in-one JavaScript runtime</a></li>
+<li><a href="https://github.com/oven-sh/bun">GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#aerospace`, `#rocket reusability`, `#breakthrough`, `#China space`
+**Tags**: `#JavaScript`, `#runtime`, `#bundler`, `#Node.js alternative`, `#performance`
 
 ---
 
 <a id="item-2"></a>
-## [Apple Sues OpenAI for Stealing Trade Secrets via Ex-Employees](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) ⭐️ 9.0/10
+## [Microsoft Releases GraphRAG: Graph-Based RAG System](https://github.com/microsoft/graphrag) ⭐️ 9.0/10
 
-Apple has filed a lawsuit against OpenAI in California federal court, accusing former employees, including hardware chief Tang Tan, of stealing confidential trade secrets about unreleased products, components, and supplier relationships. This lawsuit between two tech giants highlights serious allegations of systematic IP theft, potentially damaging OpenAI's reputation and legal standing, while underscoring Apple's aggressive protection of its proprietary information. Apple claims OpenAI instructed recruits on how to avoid scrutiny when leaving Apple, and that Tang Tan retained a confidential Apple document detailing employee departure security procedures. The suit alleges a pattern of OpenAI hires emailing themselves confidential Apple data before departing.
+Microsoft has released GraphRAG, an open-source graph-based Retrieval-Augmented Generation (RAG) system that uses knowledge graphs to enhance LLM reasoning on private data. GraphRAG addresses limitations of traditional RAG by enabling multi-hop reasoning and handling complex queries over large unstructured datasets, which is critical for enterprise applications. GraphRAG includes a data pipeline that extracts structured entities and relationships from text using LLMs, builds a knowledge graph, and supports prompt tuning for optimal performance. It is available on PyPI and GitHub.
 
-hackernews · stock_toaster · Jul 10, 20:47 · [Discussion](https://news.ycombinator.com/item?id=48865019)
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: Apple and OpenAI have had a complex relationship, with Apple integrating ChatGPT into its devices in late 2024. However, this lawsuit stems from alleged theft of hardware-related trade secrets, not software AI technology. Apple has a history of aggressively pursuing legal action against employees who leak secrets or join competitors.
+**Background**: Retrieval-Augmented Generation (RAG) enhances LLMs by retrieving relevant information from external knowledge sources. Traditional RAG uses vector similarity search on text chunks, which struggles with multi-hop reasoning. GraphRAG improves on this by organizing knowledge as a graph, allowing retrieval of interconnected concepts through graph traversal.
 
-**Discussion**: Community sentiment is strongly against OpenAI, with commenters calling the evidence 'damning' and predicting that Apple's legal power will prevail. Some note this could affect OpenAI's IPO, while others express broader distrust of OpenAI's handling of intellectual property.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.ibm.com/think/topics/graphrag">What is GraphRAG? | IBM</a></li>
+<li><a href="https://neo4j.com/blog/genai/what-is-graphrag/">What is GraphRAG? - Graph Database & Analytics</a></li>
 
-**Tags**: `#Apple`, `#OpenAI`, `#lawsuit`, `#trade secrets`, `#AI`
+</ul>
+</details>
+
+**Tags**: `#RAG`, `#Graph Neural Networks`, `#LLMs`, `#Knowledge Graphs`, `#Microsoft Research`
 
 ---
 
 <a id="item-3"></a>
-## [DSPy: Programming, Not Prompting, Language Models](https://github.com/stanfordnlp/dspy) ⭐️ 9.0/10
+## [Microsoft Announces Native Go Port of TypeScript Compiler](https://github.com/microsoft/typescript-go) ⭐️ 9.0/10
 
-Stanford NLP released DSPy, a Python framework that replaces manual prompting with algorithmic optimization of prompts and model weights. It allows developers to build modular AI systems such as classifiers, RAG pipelines, and agent loops through compositional Python code. DSPy represents a paradigm shift from brittle, hand-crafted prompts to programmatic, self-improving pipelines, significantly enhancing reliability and performance in LLM applications. This approach could standardize how developers build and optimize AI systems, reducing trial-and-error effort. DSPy stands for Declarative Self-improving Python and includes optimization algorithms that automatically teach LMs to produce high-quality outputs. It supports a wide range of tasks from simple classifiers to complex multi-stage pipelines, and its underlying research has been published in multiple academic papers.
+Microsoft has released a preview build of a native Go port of the TypeScript compiler, available on npm as @typescript/native-preview, claiming a 10x speed improvement over the current TypeScript compiler. This port dramatically improves TypeScript compilation performance, benefiting millions of developers working with large codebases. It could reshape the JavaScript tooling ecosystem by making TypeScript significantly faster and more scalable. The preview build can be used via `npx tsgo` and a VS Code extension with experimental flag. While most features are complete, the Language Server Protocol is still in progress and the API is not yet ready. The native port is expected to be merged into the main TypeScript repository eventually.
 
-rss · GitHub Trending - Python Daily · Jul 10, 01:40
+rss · GitHub Trending - Go Daily · Jul 11, 01:35
 
-**Background**: Traditional use of large language models (LLMs) involves writing specific prompts for each task, which is fragile and often requires extensive manual tuning. DSPy introduces a modular programming approach where users define the pipeline structure in Python, and the framework optimizes prompts and weights using techniques like few-shot learning and reinforcement learning, enabling models to improve automatically.
+**Background**: TypeScript is a popular superset of JavaScript that adds static type checking. Its original compiler is written in TypeScript itself, which can become slow for large projects. Porting the compiler to Go—a natively compiled language with efficient concurrency—allows for massive performance gains through shared-memory parallelism and reduced overhead.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://dspy.ai/">DSPy</a></li>
-<li><a href="https://github.com/stanfordnlp/dspy">GitHub - stanfordnlp/dspy: DSPy: The framework for programming—not prompting—language models</a></li>
-<li><a href="https://www.ibm.com/think/topics/dspy">What is DSPy? | IBM</a></li>
+<li><a href="https://devblogs.microsoft.com/typescript/typescript-native-port/">A 10x Faster TypeScript - TypeScript</a></li>
+<li><a href="https://www.npmjs.com/package/@typescript/native-preview">typescript/native-preview</a></li>
+<li><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-native-previews/">Announcing TypeScript Native Previews - TypeScript</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#NLP`, `#AI framework`, `#Python`, `#prompt optimization`
+**Tags**: `#TypeScript`, `#Go`, `#native port`, `#compiler`, `#performance`
 
 ---
 
 <a id="item-4"></a>
-## [Bun: All-in-one fast JavaScript runtime and toolchain](https://github.com/oven-sh/bun) ⭐️ 9.0/10
+## [Transient assembly strategy enables minute-scale synthesis of platinum catalysts](https://www.ithome.com/0/975/564.htm) ⭐️ 9.0/10
 
-Bun is a new all-in-one JavaScript runtime, bundler, test runner, and package manager built from scratch in Rust and powered by JavaScriptCore, offering dramatically faster startup and execution compared to Node.js and existing tools. Bun simplifies the JavaScript development toolchain by replacing multiple separate tools (Node.js, webpack, npm, Jest) with a single binary, significantly improving developer productivity and reducing configuration overhead. Its performance gains could make it a compelling alternative to Node.js for many projects. Bun supports TypeScript and JSX out of the box, is a drop-in replacement for Node.js, and works on Linux, macOS, and Windows. It includes a built-in package manager compatible with npm packages, and can run scripts defined in package.json.
+Tianjin University researchers developed a 'transient assembly' strategy using millisecond periodic thermal pulse technology, enabling the ultrafast synthesis of platinum-group core-shell catalysts with atomic-level precision. The work was published in Science on July 10, 2026. This breakthrough reduces the synthesis time of platinum-group catalysts from hours to minutes, cuts energy consumption by 90%, and achieves precise control of a three-atom-layer platinum shell. It significantly lowers the cost and improves the performance of catalysts used in hydrogen fuel cells and other critical applications. The technique directly drives the assembly of core-shell structures under non-equilibrium high-energy transient states, achieving a platinum shell thickness of exactly three atomic layers. The synthesized catalyst delivers a rated power of 15.2 kW per gram of platinum in hydrogen fuel cells with excellent durability.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · IT之家 · Jul 11, 10:43
 
-**Background**: JavaScript applications typically require several separate tools: a runtime like Node.js to execute code, a bundler like webpack to combine modules, a test runner like Jest, and a package manager like npm. Bun combines all these functionalities into a single executable, written in Rust for performance and using JavaScriptCore (the engine behind Safari) instead of V8 (used by Node.js) to reduce startup time and memory usage.
+**Background**: Platinum-group metals are essential catalysts for energy, chemical, and environmental industries. Core-shell structures, where a thin platinum shell coats a non-noble metal core, can achieve high catalytic activity with reduced platinum usage. Traditional synthesis relies on slow stepwise thermodynamic equilibrium transformations, making it complex, energy-intensive, and imprecise.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://bun.sh/">Bun — A fast all-in-one JavaScript runtime</a></li>
-<li><a href="https://github.com/oven-sh/bun">GitHub - oven-sh/ bun : Incredibly fast JavaScript runtime , bundler...</a></li>
-<li><a href="https://codemaker2016.medium.com/bun-the-all-in-one-javascript-runtime-dc97721147a7">Bun | The all-in-one JavaScript runtime | by Vishnu Sivan | Medium</a></li>
+<li><a href="https://news.tju.edu.cn/info/1003/605059.htm">瞬态组装 中国学者为铂族催化剂精准制备开辟了新路径-天津大学新闻网</a></li>
+<li><a href="https://www.stdaily.com/web/gdxw/2026-07/10/content_545567.html">能耗直降90%！天津大学提出“瞬态组装”策略，突破铂基催化剂制备瓶颈</a></li>
+<li><a href="https://news.sciencenet.cn/htmlnews/2026/7/568060.shtm">中国学者为铂族催化剂精准制备开辟了新路径—新闻—科学网</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#JavaScript`, `#runtime`, `#bundler`, `#package manager`, `#performance`
+**Tags**: `#catalysis`, `#nanotechnology`, `#energy`, `#materials science`, `#fuel cells`
 
 ---
 
 <a id="item-5"></a>
-## [uv: A super-fast Python package manager in Rust](https://github.com/astral-sh/uv) ⭐️ 9.0/10
+## [Plant roots exhibit 'saprotropism' to avoid decaying matter](https://www.ithome.com/0/975/545.htm) ⭐️ 9.0/10
 
-Astral, the creators of Ruff, has released uv, an extremely fast Python package and project manager written in Rust, aiming to replace pip, pip-tools, virtualenv, and more. Benchmarks show uv is 10-100x faster than pip. uv addresses a long-standing pain point in the Python ecosystem: slow package management. By combining multiple tools into one and leveraging Rust's performance, it could significantly improve developer productivity and workflow efficiency. uv provides a pip-compatible interface for a familiar CLI, supports a universal lockfile, manages Python versions, runs scripts with inline metadata, and includes a global cache for disk-space efficiency. It is installable via curl, pip, or pipx and supports macOS, Linux, and Windows.
+A team led by Professor Zhang Yuzhou at Northwest A&F University discovered and defined a new root tropism called 'saprotropism,' published in Science on July 10, 2026. Roots actively bend away from decaying plant tissues by sensing acidic signals from fungi. This discovery fills a fundamental gap in plant biology, showing how immobile plants avoid pathogen-rich decay zones. It offers new strategies for precision agriculture, such as breeding 'smart' crops with enhanced root avoidance to prevent seedling burn and root rot. The mechanism involves an RGF-RGFR peptide-receptor pH sensor in root epidermal cells that detects local acidity from fungal metabolites, leading to asymmetric ABA distribution and microtubule-driven root twisting. Remarkably, roots only avoid plant-derived decay, not animal-derived decay.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · IT之家 · Jul 11, 10:01
 
-**Background**: Python package management has traditionally relied on tools like pip for installing packages, virtualenv for creating isolated environments, and pip-tools for dependency pinning. These tools often suffer from slow performance and lack of integration, leading to a fragmented ecosystem. uv aims to unify these functions in a single high-speed tool written in Rust, a systems programming language known for its performance and safety.
+**Background**: Plants exhibit various tropisms (directional growth responses) to environmental stimuli, such as gravitropism (gravity) and phototropism (light). 'Saprotropism' is a newly identified tropism where roots actively avoid areas of decaying plant matter, which are often hotspots for pathogenic microbes. The discovery was made independently by two research groups and represents a major advance in understanding root behavior.
 
-**Tags**: `#python`, `#package-manager`, `#rust`, `#tooling`, `#performance`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.science.org/doi/pdf/10.1126/science.adw6568">Roots navigate around decay regions by sensing local pH gradients</a></li>
+<li><a href="https://phys.org/news/2026-07-newly-saprotropism-roots-decaying-animal.html">Newly identified 'saprotropism' helps roots avoid decaying plant matter—but not animal decay</a></li>
+<li><a href="https://ista.ac.at/en/news/roots-steer-clear-of-plant-rot/">ISTA | Roots Steer Clear of Plant Rot</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#plant biology`, `#scientific breakthrough`, `#root behavior`, `#microbial ecology`, `#agriculture`
 
 ---
 
 <a id="item-6"></a>
-## [Microsoft Releases Native Port of TypeScript to Go](https://github.com/microsoft/typescript-go) ⭐️ 9.0/10
+## [Humanoid robot performs world's first surgery on live pigs](https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/) ⭐️ 9.0/10
 
-Microsoft has released a staging repo for a native port of TypeScript to Go, with preview builds available on npm as @typescript/native-preview and a VS Code extension for testing. This native port promises up to 10x performance improvements, which could significantly speed up type checking and compilation for large projects, and the eventual TypeScript 7 release will replace the current JavaScript-based compiler. The current preview matches TypeScript 6.0 in most features like type checking, parsing, and JSX, but the Language Server Protocol (LSP) is still in progress and the API is not ready yet.
+Surgeons remotely controlled a Unitree G1 humanoid robot to perform two laparoscopic cholecystectomies on live pigs, marking the world's first use of a general-purpose humanoid robot for live surgery. The results were published in Nature. This breakthrough demonstrates that low-cost, general-purpose humanoid robots could dramatically expand access to minimally invasive surgery in underserved areas, such as rural hospitals, battlefields, or space stations. It challenges the dominance of expensive dedicated surgical robots like the da Vinci system. The Unitree G1 robot costs as low as $13,500 for the base model and about $67,000 with dexterous hands, compared to $500,000–$2 million for the da Vinci system. The robot is about 1.5 meters tall, weighs 27 kg, and was teleoperated by surgeons from the University of California San Diego.
 
-rss · GitHub Trending - Go Daily · Jul 10, 01:36
+telegram · zaihuapd · Jul 11, 02:29
 
-**Background**: The original TypeScript compiler, tsc, is written in TypeScript and runs on Node.js, which can be resource-intensive for large codebases. By rewriting the compiler in Go, a compiled language with better performance, Microsoft aims to achieve faster startup and execution times. This port is internally codenamed 'Corsa' (native) and will become TypeScript 7, while the existing codebase is codenamed 'Strada' (TypeScript 6).
+**Background**: Traditional surgical robots are purpose-built platforms that are extremely expensive, limiting their deployment. Humanoid robots like the Unitree G1 are general-purpose and designed for mass production, offering a potential low-cost alternative. Laparoscopic cholecystectomy is a common, minimally invasive gallbladder removal procedure used as a benchmark in this study.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://alkairis.medium.com/typescript-goes-native-with-go-unlocking-a-10x-performance-boost-6f4507e0590c">TypeScript Goes Native with Go : Unlocking... | Medium</a></li>
-<li><a href="https://nerdleveltech.com/typescript-7-native-compiler-tsgo">TypeScript 7 (tsgo): 10x Faster Compiler in 2026 | Nerd Level Tech</a></li>
-<li><a href="https://sunny8747.github.io/2025/03/23/TypescriptPortedToGo.html">The Microsoft porting Typescript to Go - SunnyShin's Blog</a></li>
+<li><a href="https://www.nature.com/articles/s41586-026-10796-x">In vivo feasibility study of humanoid robots in surgery | Nature</a></li>
+<li><a href="https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/">Humanoid robots controlled by surgeons did world-first operation on live pigs - Ars Technica</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Unitree_Robotics">Unitree Robotics - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#TypeScript`, `#Go`, `#native port`, `#Microsoft`, `#performance`
+**Tags**: `#surgical robotics`, `#humanoid robots`, `#medical innovation`, `#robotics research`
 
 ---
 
 <a id="item-7"></a>
-## [Tencent in Talks to Acquire AI Startup Manus from Meta](https://www.reuters.com/technology/tencent-talks-become-ai-start-up-manus-largest-shareholder-ft-reports-2026-07-10/) ⭐️ 9.0/10
+## [vLLM v0.25.0: MRv2 Default, PagedAttention Removed](https://github.com/vllm-project/vllm/releases/tag/v0.25.0) ⭐️ 8.0/10
 
-Tencent is in talks to acquire AI startup Manus by repurchasing Meta's stake, aiming to become the largest shareholder. The deal reportedly involves existing investors ZhenFund and HSG, with a valuation of at least $2 billion. This acquisition underscores the strategic importance of AI startups in the global tech race, with Tencent strengthening its AI capabilities. It also reflects regulatory influence on foreign ownership, as Beijing previously required Meta to unwind its acquisition. The move comes after Beijing mandated that Meta sell its stake in Manus, which Meta had acquired for $2 billion. Tencent, along with ZhenFund and HSG, plans to buy back the stake at a similar price.
+vLLM v0.25.0 makes Model Runner V2 (MRv2) the default execution path for all dense models and removes the legacy PagedAttention attention mechanism. It also introduces new models like LLaVA-OneVision-2 and GLM-5, a Streaming Parser Engine, and enhanced speculative decoding support. This release marks a major architectural shift in vLLM, simplifying the codebase and improving performance by consolidating on MRv2. The removal of PagedAttention signals confidence in newer backends, while new model support and tool-call parsing broaden vLLM's applicability in production LLM serving. The release includes 558 commits from 232 contributors, with 64 first-time contributors. MRv2 now supports EVS, realtime embeddings, Mamba hybrid prefix caching, and dynamic speculative decoding with full CUDA graphs. The Transformers backend is now as fast as native vLLM and supports FP8 MoE.
 
-telegram · zaihuapd · Jul 10, 06:45
+github · khluu · Jul 11, 20:06
 
-**Background**: Manus is an AI startup that had been acquired by Meta but faced regulatory pushback from Chinese authorities. Tencent is a major Chinese tech conglomerate with extensive AI investments. The deal highlights ongoing tensions between US and China over technology ownership.
+**Background**: vLLM is an open-source library for fast LLM inference and serving, originally developed at UC Berkeley. It uses PagedAttention, an attention algorithm that manages the KV cache in fixed-size blocks, enabling efficient memory usage and high throughput. Model Runner V2 is a redesign of the model execution pipeline for better modularity and performance, and became the recommended backend in recent releases.
 
-**Tags**: `#AI`, `#M&A`, `#Tencent`, `#Meta`, `#Manus`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/PagedAttention">PagedAttention</a></li>
+<li><a href="https://docs.vllm.ai/en/latest/design/model_runner_v2/">Model Runner V2 Design Document - vLLM</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#vllm`, `#LLM inference`, `#model serving`, `#performance`, `#open source`
 
 ---
 
 <a id="item-8"></a>
-## [QuadRF: Open-source RF camera sees drones and WiFi through walls](https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/) ⭐️ 8.0/10
+## [Scaling PgBouncer to 4x throughput with SO_REUSEPORT and peering](https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres) ⭐️ 8.0/10
 
-QuadRF is an open-source RF detection tool that uses a Lattice ECP5 FPGA and Raspberry Pi 5 to scan the radio spectrum at 30 fps and visualize signals in augmented reality, enabling users to spot drones and see WiFi signals through walls. This tool democratizes advanced RF sensing, allowing hobbyists and security professionals to detect drones and map wireless networks with affordable hardware. It has significant implications for security, privacy, and spectrum analysis. The system uses an FPGA and Raspberry Pi 5 for signal processing, with fully open-source software under GPL licenses. It features an RF camera mode that scans the entire frequency range at 30 fps, tracking signal direction and displaying a spatial plot, and can even decode NTSC video transmissions.
+ClickHouse documented how they increased PgBouncer throughput by 4x by using the SO_REUSEPORT socket option and implementing inter-process peering to handle query cancellations correctly. This approach turns PgBouncer from a potential bottleneck into efficient plumbing, enabling higher connection density and better resource utilization for PostgreSQL deployments. The key innovations are using SO_REUSEPORT to allow multiple PgBouncer processes to listen on the same port, and peering to forward query cancel requests to the correct process.
 
-hackernews · speckx · Jul 10, 15:59 · [Discussion](https://news.ycombinator.com/item?id=48861717)
+hackernews · saisrirampur · Jul 11, 15:28 · [Discussion](https://news.ycombinator.com/item?id=48872874)
 
-**Background**: RF (radio frequency) sensing involves detecting and analyzing wireless signals, traditionally requiring expensive specialized equipment. QuadRF combines an FPGA, software-defined radio, and augmented reality to create a portable 'RF camera' that overlays signal information on a live camera view. This allows users to visualize otherwise invisible wireless activity in their environment.
+**Background**: PgBouncer is a lightweight connection pooler for PostgreSQL that manages database connections to reduce overhead. Traditionally, a single PgBouncer process could become a bottleneck under high concurrency. SO_REUSEPORT is a socket option that allows multiple processes to bind to the same port, enabling kernel-level load balancing. Peering between processes ensures that query cancellations are routed to the correct session owner.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.hackster.io/news/quadrf-the-open-source-rf-camera-that-lets-you-see-wi-fi-signals-141ad91f2a2d">QuadRF: The Open Source RF Camera That Lets You See Wi-Fi Signals - Hackster.io</a></li>
-<li><a href="https://hackaday.com/2026/06/20/seeing-the-world-in-radio-waves-with-the-quadrf/">Seeing The World In Radio Waves With The QuadRF | Hackaday</a></li>
-<li><a href="https://scalerf.com/updates/">QuadRF Updates</a></li>
+<li><a href="https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres">How we scale PgBouncer in ClickHouse Managed Postgres</a></li>
+<li><a href="https://lwn.net/Articles/542629/">The SO_REUSEPORT socket option [LWN.net]</a></li>
+<li><a href="https://www.pgbouncer.org/config.html">PgBouncer config PostgreSQL Connection Pooling with PgBouncer: A Complete Guide PgBouncer - lightweight connection pooler for PostgreSQL GitHub - pgbouncer/pgbouncer: lightweight connection pooler ... Postgres Pro Standard : Documentation: 12: pgbouncer Feature: Multi-threading in PgBouncer · Issue #1021 ... - GitHub</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The creator of QuadRF participated in the comments, sharing demo videos and acknowledging feedback for UI improvements. Commenters were highly impressed, with one comparing it to thermal cameras and another suggesting a similar tool for sound localization. Overall sentiment was positive and enthusiastic.
+**Discussion**: Users suggested alternatives like Odyssey and pgdog, and asked clarifying questions about setting up peering and SO_REUSEPORT. Some shared experiences running multiple PgBouncer processes on Kubernetes.
 
-**Tags**: `#RF detection`, `#open source`, `#drones`, `#security`, `#WiFi sensing`
+**Tags**: `#PgBouncer`, `#PostgreSQL`, `#scaling`, `#connection pooling`, `#performance`
 
 ---
 
 <a id="item-9"></a>
-## [NYC enacts 'click-to-cancel' law to combat deceptive subscriptions](https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban) ⭐️ 8.0/10
+## [Prefer strict tables in SQLite](https://evanhahn.com/prefer-strict-tables-in-sqlite/) ⭐️ 8.0/10
 
-New York City Mayor announced a landmark 'click-to-cancel' consumer protection regulation on July 10, 2026, banning deceptive subscription practices and hidden fees. This regulation protects consumers from unwanted subscriptions and hidden fees, setting a precedent for other cities and potentially influencing federal policy. The law requires companies to provide a simple cancellation process (click-to-cancel) and bans hidden fees like resort fees and service charges, without the restaurant carve-out seen in California's law.
+Evan Hahn argues that developers should prefer SQLite's STRICT tables over the default flexible typing, as they enforce column type safety and prevent silent data corruption. This recommendation matters because SQLite is widely used in applications, and using strict tables can prevent subtle bugs and data inconsistencies that arise from its default flexible typing, aligning SQLite more closely with traditional SQL databases. STRICT tables were introduced in SQLite version 3.37.0 (2021-11-27) and are enabled per table; when a table is declared as STRICT, only values of the declared type are accepted, causing an error otherwise.
 
-hackernews · randycupertino · Jul 10, 18:26 · [Discussion](https://news.ycombinator.com/item?id=48863464)
+hackernews · ingve · Jul 11, 17:33 · [Discussion](https://news.ycombinator.com/item?id=48873940)
 
-**Background**: Many subscription services make cancellation difficult by requiring phone calls or multiple steps. Hidden fees, known as drip pricing, add costs late in the transaction. Similar laws already exist in California and other jurisdictions.
+**Background**: SQLite's default typing is flexible, meaning any column can store any data type regardless of its declared type, with the exception of INTEGER PRIMARY KEY. This flexibility is by design and has advantages like simpler schemas for mixed-type data, but it can lead to bugs where invalid data types are silently accepted.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.marianatek.com/blog/click-to-cancel/">Mariana Tek's New Click - to - Cancel Feature: Stay Compliant and...</a></li>
-<li><a href="https://wccftech.com/click-to-cancel-subscriptions-law-passed/">California's New ' Click To Cancel ' Law Requires Companies To Make...</a></li>
+<li><a href="https://www.sqlite.org/stricttables.html">STRICT Tables</a></li>
+<li><a href="https://sqlite.org/flextypegood.html">The Advantages Of Flexible Typing</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters expressed support but noted California already has similar rules. Some questioned enforcement and highlighted hidden hotel fees and restaurant service charges as ongoing issues. Others praised the move as pro-consumer.
+**Discussion**: The community discussion shows mixed sentiments: some commenters argue that critics miss the point of SQLite's design, while others express past skepticism due to lack of type enforcement. Several wish STRICT were the default, but others reference the official SQLite document on flexible typing advantages, noting that strictness may not suit all use cases.
 
-**Tags**: `#consumer protection`, `#subscriptions`, `#regulation`, `#NYC`, `#policy`
+**Tags**: `#SQLite`, `#type safety`, `#database schema`, `#software engineering`
 
 ---
 
 <a id="item-10"></a>
-## [Agent Skills: Production-Grade Workflows for AI Coders](https://github.com/addyosmani/agent-skills) ⭐️ 8.0/10
+## [Hugging Face Releases Open-Source Speech-to-Speech Pipeline](https://github.com/huggingface/speech-to-speech) ⭐️ 8.0/10
 
-Addy Osmani released the open-source repository agent-skills, packaging 24 structured engineering skills as slash commands for AI coding agents to follow consistent, senior-engineer workflows across the development lifecycle. This repository addresses the common issue of AI agents skipping best practices, and by encoding expert knowledge into reusable skills, it may become a standard for reliable AI-assisted software development across the industry. The skills are installed via a CLI into 70+ agents (e.g., Claude Code, Cursor, Copilot) and include an auto-build mode that autonomously executes tasks after plan approval, pausing on failures or risky steps.
+Hugging Face has released speech-to-speech, a modular, low-latency voice-agent pipeline that integrates VAD, STT, LLM, and TTS components, exposed via an OpenAI Realtime-compatible WebSocket API. This enables developers to build and run local voice AI agents using fully open-source models, reducing dependency on proprietary cloud services and lowering latency for real-time voice interactions. Every component in the pipeline is swappable; the LLM slot supports OpenAI-compatible protocols, allowing users to connect hosted providers, Hugging Face Inference Providers, or local servers like vLLM or llama.cpp for a fully local stack.
 
-rss · GitHub Trending - Daily · Jul 10, 01:33
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: AI coding agents are tools like GitHub Copilot and Cursor that generate code autonomously but often lack structured workflows. An agent skills repository, as defined by industry experts, is a centralized store for such capabilities, and addyosmani/agent-skills encodes practices from Google's engineering culture to guide agents through spec writing, testing, and code review.
+**Background**: Voice agents typically process speech through a pipeline: Voice Activity Detection (VAD) identifies when someone is speaking, Speech-to-Text (STT) transcribes audio, an LLM generates a response, and Text-to-Speech (TTS) converts it back to audio. This modular architecture allows swapping each component independently. The OpenAI Realtime WebSocket API provides a standard for low-latency, streaming voice interactions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://dev.to/vikrant_bagal_afae3e25ca7/production-grade-engineering-skills-for-ai-coding-agents-56nb">Production - Grade Engineering Skills for AI Coding Agents</a></li>
-<li><a href="https://www.everydev.ai/tools/addy-osmani-agent-skills">Addy Osmani Agent Skills - Skill Library by Addy Osmani | EveryDev. ai</a></li>
-<li><a href="https://jfrog.com/learn/ai-security/agent-skills-repository/">What is an Agent Skills Repository?</a></li>
+<li><a href="https://developers.openai.com/api/docs/guides/realtime-websocket">Realtime API with WebSocket | OpenAI API</a></li>
+<li><a href="https://livekit.com/blog/sequential-pipeline-architecture-voice-agents">Sequential Pipeline Architecture for Voice Agents | LiveKit</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#developer tools`, `#software engineering`, `#best practices`
+**Tags**: `#voice-agent`, `#speech-to-speech`, `#huggingface`, `#open-source`, `#pipeline`
 
 ---
 
 <a id="item-11"></a>
-## [Pocket TTS: Lightweight CPU-Only Text-to-Speech](https://github.com/kyutai-labs/pocket-tts) ⭐️ 8.0/10
+## [NVIDIA Launches Verified Agent Skills Repository](https://github.com/NVIDIA/skills) ⭐️ 8.0/10
 
-Kyutai Labs released Pocket TTS, an open-source text-to-speech library that runs efficiently on CPUs with a 100M-parameter model, achieving ~6x real-time speed on a MacBook Air M4 using only 2 CPU cores. This removes GPU dependency, making high-quality TTS accessible on edge devices, laptops, and browsers, broadening deployment scenarios and reducing hardware costs. Pocket TTS supports Python 3.10-3.14, requires PyTorch 2.5+ (CPU version), and features voice cloning, streaming, multi-language support (6 languages), and browser inference via WebAssembly.
+NVIDIA released an official GitHub repository of NVIDIA-verified agent skills, which are portable instruction sets that teach AI agents how to use NVIDIA software optimally, including CUDA-X libraries and AI Blueprints. This initiative provides a standardized, governed skill ecosystem for AI agents, reducing errors and improving reliability when agents interact with NVIDIA platforms, and sets a precedent for capability governance in the AI agent community. Skills can be installed via a single npx command into agents like Claude Code, Codex, Cursor, and Kiro; the repository syncs skills from product repos daily and uses cryptographic signing for verification.
 
-rss · GitHub Trending - Daily · Jul 10, 01:33
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: Traditional TTS systems often rely on GPU acceleration for neural network inference, limiting deployment on consumer hardware. Pocket TTS uses a continuous audio language model architecture that predicts latent vector sequences, enabling efficient CPU execution with only 100M parameters. The project by Kyutai (a Paris-based AI research lab) is fully open-source.
+**Background**: AI agents often need precise instructions to use software libraries effectively, but manual skill authoring leads to inconsistency and errors. NVIDIA's verified skills act as trusted, portable recipes that agents can follow, ensuring correct usage of complex tools like cuOpt or NeMo.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/kyutai-labs/pocket-tts">GitHub - kyutai-labs/pocket-tts: A TTS that fits in your CPU (and pocket) · GitHub</a></li>
-<li><a href="https://kyutai.org/">kyutai : open-science AI lab</a></li>
-<li><a href="https://grokipedia.com/page/Pocket_TTS">Pocket TTS — Grokipedia</a></li>
+<li><a href="https://github.com/NVIDIA/skills">GitHub - NVIDIA/skills: AI agent skills published by NVIDIA · GitHub</a></li>
+<li><a href="https://docs.nvidia.com/skills">NVIDIA-Verified Agent Skills | NVIDIA Skill Documentation</a></li>
+<li><a href="https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/">NVIDIA-Verified Agent Skills Provide Capability Governance for AI Agents | NVIDIA Technical Blog</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#TTS`, `#machine learning`, `#CPU-only`, `#open source`, `#Python`
+**Tags**: `#AI agents`, `#NVIDIA`, `#skills`, `#GitHub`, `#agent tools`
 
 ---
 
 <a id="item-12"></a>
-## [GitHub repo leaks system prompts from major AI chatbots](https://github.com/asgeirtj/system_prompts_leaks) ⭐️ 8.0/10
+## [Microsoft releases Agent Governance Toolkit for AI security](https://github.com/microsoft/agent-governance-toolkit) ⭐️ 8.0/10
 
-A GitHub repository named 'system_prompts_leaks' has aggregated leaked system prompts from major AI chatbots including Claude, ChatGPT, Gemini, Grok, and Copilot, with regular updates and coverage by the Washington Post. These leaks provide unprecedented visibility into the hidden rules and internal instructions governing major AI models, enabling researchers, developers, and users to understand and audit AI behavior. The repository contains system prompts for numerous model versions (e.g., Claude Opus 4.8, Claude Fable 5, GPT-5.5 Codex) and even provides diffs between versions, such as the transition from Opus 4.8 to Fable 5.
+Microsoft has released the Agent Governance Toolkit, a comprehensive set of tools and specifications for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. The toolkit covers all 10 categories of the OWASP Agentic Top 10 security risks. This toolkit addresses critical production challenges for AI agents, such as security, reliability, and governance, enabling developers to deploy agents safely and confidently. It aligns with industry frameworks like OWASP and zero-trust principles, setting a standard for responsible AI agent deployment. The toolkit includes specifications for policy enforcement, zero-trust identity via Microsoft Entra, execution sandboxing, and reliability patterns. It is available on PyPI, npm, and NuGet, and covers all 10 OWASP Agentic Top 10 categories, such as identity and privilege abuse.
 
-rss · GitHub Trending - Daily · Jul 10, 01:33
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: System prompts are special instructions given to AI language models to define their behavior, persona, and constraints. They are often considered trade secrets. These leaks typically occur through prompt injection attacks, where a user tricks the model into revealing its own system instructions.
+**Background**: AI agents are autonomous systems that can execute tasks on behalf of users, but they introduce new security risks like identity abuse, prompt injection, and tool misuse. The OWASP Agentic Top 10 2026 is a community-driven framework that identifies these critical risks. Zero-trust security principles require verifying every access request, even for agents, to prevent unauthorized actions. Microsoft's toolkit operationalizes these principles for agent governance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://tetrate.io/learn/ai/system-prompts-guide">System Prompts: Design Patterns and Best Practices</a></li>
-<li><a href="https://mindgard.ai/blog/prompt-injection-in-llms">Prompt Injection in LLMs: How Attacks Work and How to... - Mindgard</a></li>
+<li><a href="https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/">New tools and guidance: Announcing Zero Trust for AI ...</a></li>
+<li><a href="https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/">OWASP Top 10 for Agentic Applications for 2026</a></li>
+<li><a href="https://claude.com/blog/zero-trust-for-ai-agents">Zero Trust for AI agents | Claude by Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#system prompts`, `#leaks`, `#LLM`, `#GitHub`
+**Tags**: `#AI Agents`, `#Governance`, `#Security`, `#Microsoft`, `#OWASP`
 
 ---
 
 <a id="item-13"></a>
-## [Microsoft SkillOpt Trains Reusable Language Skills for Frozen LLM Agents](https://github.com/microsoft/SkillOpt) ⭐️ 8.0/10
+## [AgentScope 2.0: Production-Ready Framework for Transparent Multi-Agent Systems](https://github.com/agentscope-ai/agentscope) ⭐️ 8.0/10
 
-Microsoft released SkillOpt, a text-space optimizer that trains reusable natural-language skills for frozen LLM agents via trajectory-driven edits and validation-gated updates, along with v0.2.0 introducing SkillOpt-Sleep for nightly offline self-evolution. SkillOpt enables frozen LLM agents to improve their skills without modifying model weights, offering a new paradigm for agent optimization that mimics neural network training but operates entirely in natural language, which could significantly accelerate the development of more capable and adaptable AI agents. SkillOpt uses concepts like epochs, batch size, and learning rate to iteratively refine natural-language skill documents, validated via a held-out validation gate before deployment as best_skill.md artifacts. The v0.2.0 release adds multi-objective reward, experience replay, dream rollouts, and support for multiple tool backends including Claude, Codex, and Copilot.
+AgentScope 2.0 has been released as a production-ready, easy-to-use agent framework with built-in support for an event system, permission system, multi-tenancy, sandboxed workspace, and extensible middleware. This framework addresses the growing need for transparent and trustworthy multi-agent systems, enabling developers to build and deploy AI agents with fine-grained control and observability. Key features include a unified event bus for human-in-the-loop interaction, configurable tool/resource permissions, and support for local, Docker, E2B, and OpenSandbox backends for isolated execution.
 
-rss · GitHub Trending - Python Daily · Jul 10, 01:40
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: Large language model (LLM) agents increasingly rely on reusable natural-language skills—instruction documents that guide planning and execution—to automate tasks. Traditionally, improving these skills requires either retraining the entire model or manual prompt engineering. SkillOpt introduces an automated training-like process that optimizes skills in the text space by treating skill evolution as a series of edit steps, each validated against held-out data, analogous to training neural networks with backpropagation but without touching model weights.
+**Background**: A multi-agent system (MAS) consists of multiple AI agents working together to solve complex problems. AgentScope is a Python-based framework that simplifies building such systems, with emphasis on transparency and developer control.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/Prat011/awesome-llm-skills">GitHub - Prat011/awesome- llm - skills : A curated list of awesome LLM ...</a></li>
-<li><a href="https://arxiv.org/html/2607.02345">SkillFuzz: Fuzzing Skill Composition for Implicit Intents Discovery in...</a></li>
+<li><a href="https://github.com/agentscope-ai/agentscope">GitHub - agentscope -ai/ agentscope : Build and run agents you can...</a></li>
+<li><a href="https://agentscope.io/">AgentScope — Where Agents Come Alive</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Multi-agent_system">Multi-agent system</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#agent optimization`, `#natural language skills`, `#Microsoft`, `#training paradigm`
+**Tags**: `#multi-agent systems`, `#AI agents`, `#framework`, `#open source`
 
 ---
 
 <a id="item-14"></a>
-## [LMCache: KV Cache Layer for Faster LLM Inference](https://github.com/LMCache/LMCache) ⭐️ 8.0/10
+## [LMCache: Fastest KV Cache Layer for LLM Inference](https://github.com/LMCache/LMCache) ⭐️ 8.0/10
 
-LMCache is an open-source KV cache management layer that optimizes LLM inference performance by intelligently managing the key-value cache across tiered storage (GPU, CPU, and disk). It has been integrated with NVIDIA Dynamo and adopted by the PyTorch Foundation. LMCache addresses the critical memory bottleneck in long-context LLM inference, enabling lower latency and reduced costs for large-scale AI deployments. Its cross-hardware support and integration with major frameworks make it a key building block for efficient production-level LLM serving. LMCache supports multiple hardware platforms including AMD, Arm, and Ascend, and extends its acceleration to multimodal models. The new multiprocess architecture achieves up to 10x performance boost for Mixture-of-Experts (MoE) models.
+LMCache is an open-source KV cache management layer that accelerates LLM inference by making KV cache persistent, reusable, and shareable across serving engines. Recent updates include a new multiprocess architecture (April 2026) that boosts MoE inference performance by up to 10x, and support for multi-node P2P CPU memory sharing in production. KV cache management is a critical bottleneck in LLM inference, especially for long-context and multi-turn workloads. LMCache significantly reduces time-to-first-token (TTFT) and improves throughput, making scalable LLM deployment more cost-effective, and its integration with NVIDIA Dynamo and PyTorch Foundation highlights industry adoption. LMCache stores KV cache as persistent, AI-native knowledge that can survive worker restarts and be reused across different serving engines. It supports multimodal models, integrates with vLLM V1, and includes observability features for monitoring cache performance.
 
-rss · GitHub Trending - Python Daily · Jul 10, 01:40
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: In LLM inference, the key-value (KV) cache stores intermediate attention states to avoid redundant computation for each token. However, the KV cache grows rapidly with sequence length, exhausting GPU memory and limiting batch size. LMCache introduces a tiered caching strategy that can spill KV cache to CPU memory or disk, thereby reducing memory pressure and enabling longer effective context lengths.
+**Background**: In LLM inference, the key-value (KV) cache stores intermediate attention keys and values to avoid redundant recomputation during token generation, drastically reducing latency. However, its memory footprint grows with context length, creating a bottleneck on GPU memory. LMCache addresses this by treating the cache as a manageable, persistent resource, enabling efficient memory sharing and reuse across requests and engines.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://arxiv.org/pdf/2510.09665">LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM ...</a></li>
+<li><a href="https://github.com/LMCache/LMCache">GitHub - LMCache/LMCache: LMCache: Supercharge Your LLM with the Fastest KV Cache Layer · GitHub</a></li>
+<li><a href="https://docs.lmcache.ai/">Welcome to LMCache! | LMCache</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM inference`, `#KV cache`, `#AI optimization`, `#open source`
+**Tags**: `#LLM`, `#KV Cache`, `#Inference`, `#Performance Optimization`, `#Open Source`
 
 ---
 
 <a id="item-15"></a>
-## [ByteDance Open-Sources DeerFlow 2.0 Superagent Framework](https://github.com/bytedance/deer-flow) ⭐️ 8.0/10
+## [AUTOMATIC1111 Stable Diffusion WebUI Released](https://github.com/AUTOMATIC1111/stable-diffusion-webui) ⭐️ 8.0/10
 
-ByteDance has released DeerFlow 2.0, an open-source superagent framework designed to handle long-horizon tasks that can take minutes to hours, using sandboxes, memory, subagents, and an extensible skill system. It is a complete rewrite from version 1.x. This release marks a significant advancement in AI agent frameworks, moving from planning and discussing to actual execution of complex, multi-step tasks autonomously. It could accelerate research, coding, and creative workflows for developers and researchers. DeerFlow 2.0 is built with Python 3.12+ and Node.js 22+, and is licensed under MIT. It recommends using models like Doubao-Seed-2.0-Code, DeepSeek v3.2, and Kimi 2.5 for optimal performance. The framework includes an integrated search and crawling toolset called InfoQuest.
+AUTOMATIC1111 released stable-diffusion-webui, a user-friendly Gradio-based web interface for Stable Diffusion, offering features like txt2img, img2img, inpainting, and outpainting. The project includes one-click installation scripts and extensive parameter controls. This open-source webui democratized AI image generation by making Stable Diffusion accessible to a wide audience without deep technical expertise. It has become the most popular frontend for Stable Diffusion, driving widespread adoption in the AI art community. The webui supports advanced features like Textual Inversion, negative prompts, attention weighting, and multiple upscalers (GFPGAN, CodeFormer, RealESRGAN). It works on GPUs with as little as 4GB VRAM, and includes live preview and interrupt functionality.
 
-rss · GitHub Trending - Python Daily · Jul 10, 01:40
+rss · GitHub Trending - Python Daily · Jul 11, 01:38
 
-**Background**: Long-horizon tasks are complex, multi-step activities that AI agents must plan and execute over extended periods, often involving dozens to hundreds of actions. Traditional AI assistants typically generate suggestions or code snippets, but DeerFlow's superagent harness orchestrates sub-agents, sandboxes for safe code execution, and persistent memory to actually produce artifacts like files, installed packages, and running services. This contrasts with many frameworks that primarily focus on orchestration without execution.
+**Background**: Stable Diffusion is a deep learning text-to-image model released in 2022. AUTOMATIC1111's webui uses Gradio, a Python library for building machine learning web apps, to provide a visual interface for interacting with the model. Inpainting fills in masked areas of an image, while outpainting extends the image beyond its original borders.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://flowtivity.ai/blog/bytedance-deerflow-superagent-review/">ByteDance DeerFlow Superagent Review: The... | Flowtivity</a></li>
-<li><a href="https://vibecoding.app/blog/deerflow-review">DeerFlow Review 2026 – Open-Source SuperAgent</a></li>
-<li><a href="https://john-shulman-gpt4o-gemini-flash.vercel.app/advancements-in-ai-capabilities/long-horizon-tasks">Long - Horizon Tasks – Nextra</a></li>
+<li><a href="https://gradio.app/">Gradio</a></li>
+<li><a href="https://stable-diffusion-art.com/inpainting/">Inpainting: A complete guide - Stable Diffusion Art</a></li>
+<li><a href="https://stable-diffusion-art.com/outpainting/">How to use outpainting to extend images - Stable Diffusion Art Images What is Outpainting (in Generative Models) in AI? - avahi.ai AI Image Extender – Outpaint & Expand Photos | GoStudio Stable diffusion outpainting: simple image extension IOPaint – IOPaint</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI agent`, `#open source`, `#Python`, `#ByteDance`, `#framework`
+**Tags**: `#stable-diffusion`, `#AI-art`, `#deep-learning`, `#web-ui`
 
 ---
 
 <a id="item-16"></a>
-## [Notion Releases Official MCP Server with Simplified OAuth](https://github.com/makenotion/notion-mcp-server) ⭐️ 8.0/10
+## [Vue 2 Reaches End of Life, Users Urged to Migrate to Vue 3](https://github.com/vuejs/vue) ⭐️ 8.0/10
 
-Notion has launched an official Model Context Protocol (MCP) server, featuring simplified OAuth authentication and tools optimized for AI agents, such as markdown editing with reduced token consumption. This release streamlines AI agent integration with Notion, making it easier for developers to build applications that interact with Notion data through standardized MCP interfaces, and signals growing industry adoption of the MCP standard. Version 2.0.0 of the server migrates to the Notion API 2025-09-03, replacing database tools with data source tools and requiring no code changes for existing users; the repository is no longer actively maintained as Notion focuses on the remote MCP server.
+Vue 2 officially reached End of Life on December 31, 2023, and the GitHub repository has been marked as inactive, directing users to the actively maintained Vue 3 repository at vuejs/core. This marks a crucial milestone for the Vue.js ecosystem, as thousands of existing projects built on Vue 2 will no longer receive updates or security fixes, pushing the community to migrate to Vue 3 or seek extended support options. Vue 2 remains available on all existing distribution channels (CDNs, package managers, GitHub) but will not receive new features or bug fixes. For those unable to migrate, HeroDevs offers a paid Vue 2 NES (Never-Ending Support) solution.
 
-rss · GitHub Trending - TypeScript Daily · Jul 10, 01:43
+rss · GitHub Trending - TypeScript Daily · Jul 11, 01:40
 
-**Background**: The Model Context Protocol (MCP) is an open standard introduced by Anthropic in November 2024 to standardize how AI systems interact with external tools and data sources. Notion's MCP server allows AI agents to read, create, and edit Notion pages and databases via a unified interface.
+**Background**: Vue.js is a progressive JavaScript framework for building user interfaces, known for its incremental adoptability. Vue 2, released in 2016, became widely popular but was superseded by Vue 3 in 2020, which introduced Composition API, improved performance, and TypeScript support. End of Life means the framework no longer receives official maintenance, which can lead to security vulnerabilities and compatibility issues for projects that remain on the old version.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Model_Context_Protocol">Model Context Protocol</a></li>
-<li><a href="https://modelcontextprotocol.io/">What is the Model Context Protocol (MCP)? - Model Context Protocol</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Notion`, `#MCP`, `#AI agents`, `#OAuth`, `#developer tools`
+**Tags**: `#Vue.js`, `#End of Life`, `#JavaScript`, `#Framework`, `#Migration`
 
 ---
 
 <a id="item-17"></a>
-## [RuView Turns WiFi Signals into Spatial Intelligence](https://github.com/ruvnet/RuView) ⭐️ 8.0/10
+## [Voicebox: Open-Source AI Voice Studio for Local Voice Cloning](https://github.com/jamiepine/voicebox) ⭐️ 8.0/10
 
-RuView is an open-source platform that uses commodity WiFi signals to detect presence, track movement, and monitor vital signs (breathing and heart rate) through walls without cameras or wearables. This technology enables privacy-preserving smart home monitoring and health surveillance using existing WiFi infrastructure, potentially reducing costs and simplifying deployment for elderly care, security, and home automation. RuView integrates with major smart home ecosystems (Home Assistant, Apple Home, Google Home, Alexa) via MQTT or Matter, and outputs 21 entities per node including inferred states like 'someone-sleeping' and 'possible-distress'.
+Jamiepine released Voicebox, an open-source desktop app that provides voice cloning, speech synthesis, and dictation, all running locally on the user's machine. This challenges proprietary cloud services like ElevenLabs and WisprFlow by offering a free, privacy-preserving alternative that combines both input and output voice AI in one local app, potentially democratizing voice AI for developers and end users. Voicebox integrates 7 TTS engines including Qwen3-TTS and Kokoro, supports zero-shot voice cloning from a few seconds of audio, and includes a bundled local LLM for refinement. It allows dictation via global hotkey and can give AI agents a voice.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - TypeScript Daily · Jul 11, 01:40
 
-**Background**: WiFi sensing analyzes changes in Channel State Information (CSI) of radio waves as they interact with moving objects or people. Commodity WiFi routers can thus serve as passive sensors for motion, breathing, and heart rate estimation, a field that has seen growing academic and commercial interest.
+**Background**: Voice cloning is an AI technique that synthesizes speech mimicking a specific person from a short audio sample, often used for audiobooks or personal assistants. Traditionally, such services rely on cloud APIs, raising privacy concerns. Voicebox is a local-first approach, meaning all processing happens on the user's computer without sending data externally, as an open-source alternative to services like ElevenLabs for speech generation and WisprFlow for speech input.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/WiFi_Sensing">WiFi Sensing</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Channel_state_information">Channel state information</a></li>
+<li><a href="https://voicebox.sh/">Voicebox - Open Source Voice Cloning Desktop App</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Voice_cloning">Voice cloning</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#WiFi sensing`, `#spatial intelligence`, `#vital signs`, `#Rust`, `#smart home`
+**Tags**: `#AI`, `#Voice Cloning`, `#Open Source`, `#Speech Synthesis`
 
 ---
 
 <a id="item-18"></a>
-## [OpenAI Releases Codex CLI Coding Agent](https://github.com/openai/codex) ⭐️ 8.0/10
+## [OpenAI Releases Codex CLI: Lightweight Local Coding Agent](https://github.com/openai/codex) ⭐️ 8.0/10
 
-OpenAI has released Codex CLI, a lightweight coding agent that runs locally in the terminal, as an open-source project under the Apache-2.0 license. This provides developers with an official, locally-running AI coding assistant from OpenAI, potentially improving productivity and privacy by keeping code on the user's machine. Codex CLI can be installed via curl, npm, Homebrew, or direct binary download on macOS, Linux, and Windows, and requires a ChatGPT Plus, Pro, Business, Edu, or Enterprise plan or an API key for usage.
+OpenAI has released Codex CLI, a lightweight coding agent that runs locally in the terminal on macOS, Linux, and Windows. This release provides developers with a convenient, local coding assistant that integrates with ChatGPT plans, potentially improving productivity and streamlining development workflows. Codex CLI can be installed via curl, npm, Homebrew, or by downloading binaries from GitHub Releases, and requires signing in with a ChatGPT account or using an API key.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - Rust Daily · Jul 11, 01:39
 
-**Background**: Coding agents use AI to autonomously perform tasks like writing, reviewing, and editing code. OpenAI's Codex previously was a cloud-based service; Codex CLI brings similar capabilities to the local environment, reducing reliance on constant internet connectivity.
+**Background**: Codex is OpenAI's AI-powered coding agent. CLI stands for command-line interface, allowing users to interact with the agent directly from the terminal. This release offers a local alternative to cloud-based coding agents.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/openai/codex">GitHub - openai/ codex : Lightweight coding agent that runs in your...</a></li>
-<li><a href="https://developers.openai.com/codex/cli">CLI – Codex | OpenAI Developers</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#developer-tools`, `#CLI`, `#OpenAI`, `#code-generation`
+**Tags**: `#openai`, `#codex`, `#coding-agent`, `#terminal`, `#developer-tools`
 
 ---
 
 <a id="item-19"></a>
-## [RustDesk: Open-Source Self-Hosted Remote Desktop in Rust](https://github.com/rustdesk/rustdesk) ⭐️ 8.0/10
+## [NVIDIA Releases OpenShell: Open-Source Sandbox for AI Agents](https://github.com/NVIDIA/OpenShell) ⭐️ 8.0/10
 
-RustDesk continues to gain popularity as a self-hosted, open-source remote desktop application built in Rust, offering a free alternative to proprietary tools like TeamViewer and AnyDesk. This project matters because it gives users full control over their remote desktop infrastructure, enhancing privacy and security by eliminating reliance on third-party servers. RustDesk supports Windows, macOS, Linux, and Android, and users can host their own server for maximum control. The software is written in Rust, which contributes to its performance and safety.
+NVIDIA has released OpenShell, an open-source sandboxed runtime for safely executing autonomous AI agents with kernel-level isolation and declarative YAML policies for security control. The project is currently in alpha stage and available on GitHub and PyPI. OpenShell addresses critical safety and privacy concerns in the rapidly growing field of autonomous AI agents by providing a controlled execution environment. As an open-source release from a major hardware vendor, it could set a standard for secure agent deployment and accelerate enterprise adoption. OpenShell supports Docker, Podman, or MicroVM-backed sandboxes and includes built-in agent skills for tasks such as gateway troubleshooting and policy generation. The current alpha release is limited to single-player mode (one developer, one environment), with plans for multi-tenant enterprise deployments in the future.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - Rust Daily · Jul 11, 01:39
 
-**Background**: Remote desktop software allows users to control one computer from another over a network. Proprietary solutions often rely on central servers, raising concerns about data privacy and service continuity. Open-source alternatives like RustDesk address these concerns by enabling self-hosting.
+**Background**: Autonomous AI agents can execute code, access files, and communicate over networks, posing risks of data exfiltration or system compromise if not properly contained. Sandboxing isolates agents in restricted environments, and declarative policies allow fine-grained control over agent actions, balancing autonomy with security.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://rustdesk.com/">RustDesk: Open-Source Remote Desktop with Self - Hosted Server...</a></li>
-<li><a href="https://github.com/rustdesk/rustdesk/releases/">Releases · rustdesk / rustdesk</a></li>
+<li><a href="https://grokipedia.com/page/NVIDIA_OpenShell">NVIDIA OpenShell</a></li>
+<li><a href="https://build.nvidia.com/openshell">OpenShell</a></li>
+<li><a href="https://medium.com/@priyanchew/openshell-why-nvidia-is-building-linux-for-the-age-of-ai-agents-29c4939ab47e">OpenShell : Why NVIDIA is building Linux for the age of AI... | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Rust`, `#remote-desktop`, `#open-source`, `#self-hosting`
+**Tags**: `#AI safety`, `#autonomous agents`, `#sandboxing`, `#NVIDIA`
 
 ---
 
 <a id="item-20"></a>
-## [Oxc: A collection of high-performance JavaScript tools in Rust](https://github.com/oxc-project/oxc) ⭐️ 8.0/10
+## [Iroh: Rust QUIC Library with NAT Traversal](https://github.com/n0-computer/iroh) ⭐️ 8.0/10
 
-Oxc is a Rust-based collection of high-performance JavaScript tools, including a parser, linter, formatter, transformer, minifier, and resolver. It is already used by projects like Rolldown (Vite's bundler), Nuxt, and Preact for parsing, linting, or module resolution. This project represents a significant step toward a unified, high-performance JavaScript toolchain in Rust, potentially replacing multiple existing tools (e.g., ESLint, Babel, Prettier) and improving developer experience through speed and correctness. It is part of the broader industry trend of adopting Rust for JavaScript infrastructure, as seen with SWC, Biome, and Turbopack. Oxc is developed under the VoidZero umbrella and powers Rolldown, the bundler for Vite. It offers both a CLI (npx oxlint, npx oxfmt) and libraries for building custom tooling. The name 'Oxc' stands for 'Oxidation Compiler,' referencing the chemical process that creates rust.
+Iroh, a Rust library providing QUIC-based networking with automatic NAT traversal, is gaining traction on GitHub by offering a simple API to dial peers by public key instead of IP addresses. Iroh simplifies building peer-to-peer and decentralized applications in Rust by solving the difficult problem of NAT traversal, leveraging QUIC's performance benefits like multiplexed streams and reduced latency. Iroh uses its own QUIC implementation called 'noq' and supports hole-punching with fallback to public relay servers; it also offers higher-level protocols like iroh-blobs for content-addressed blob transfer and iroh-gossip for publish-subscribe overlays.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - Rust Daily · Jul 11, 01:39
 
-**Background**: JavaScript tooling has traditionally relied on JavaScript itself, but recently tools written in Rust—like SWC, Biome, and now Oxc—offer significantly faster performance. Oxc aims to be a comprehensive toolchain that can replace multiple tools, simplifying the development workflow. The project is part of VoidZero's vision for a unified, high-performance JavaScript toolchain.
+**Background**: QUIC is a modern transport protocol built on UDP that provides multiplexed streams, encryption, and low-latency connection establishment, standardized in RFC 9000. NAT traversal techniques like hole-punching allow peers behind NATs to communicate directly, often requiring relay servers as fallback.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://oxc.rs/">A collection of high-performance JavaScript tools written in Rust</a></li>
-<li><a href="https://github.com/oxc-project/oxc">oxc -project/ oxc : A collection of high-performance JavaScript tools .</a></li>
-<li><a href="https://www.pkgpulse.com/guides/rise-of-rust-in-javascript-tooling-2026">Rise of Rust in JavaScript Tooling 2026 — PkgPulse Guides</a></li>
+<li><a href="https://en.wikipedia.org/wiki/QUIC_protocol">QUIC protocol</a></li>
+<li><a href="https://datatracker.ietf.org/doc/rfc9000/">RFC 9000 - QUIC: A UDP-Based Multiplexed and Secure Transport</a></li>
+<li><a href="https://en.wikipedia.org/wiki/NAT_traversal">NAT traversal - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Rust`, `#JavaScript`, `#performance`, `#tools`, `#linter`
+**Tags**: `#rust`, `#networking`, `#quic`, `#nat-traversal`, `#p2p`
 
 ---
 
 <a id="item-21"></a>
-## [Qdrant: High-Performance Vector Database in Rust](https://github.com/qdrant/qdrant) ⭐️ 8.0/10
+## [Biome: High-Performance Rust Toolchain for Web Projects](https://github.com/biomejs/biome) ⭐️ 8.0/10
 
-Qdrant has released its latest version, providing a high-performance vector similarity search engine and database written entirely in Rust, with production-ready APIs for storing, searching, and managing vectors and payloads. As AI applications demand efficient semantic search, Qdrant offers fast and reliable vector search at scale, supporting retrieval-augmented generation (RAG) and other neural-network-based matching, making it a critical infrastructure component for modern AI. Qdrant is written in Rust, leveraging SIMD and a custom storage engine called Gridstore for high performance. It supports extended filtering, quantization, sharding, tenant isolation, and hybrid search, and is available as a fully managed cloud service with a free tier.
+Biome is released as an open-source toolchain that combines a code formatter and linter for JavaScript, TypeScript, JSX, JSON, CSS, and GraphQL, achieving 97% compatibility with Prettier. It uses Rust for high performance and supports CLI and LSP integration. By offering a unified, fast tool written in Rust, Biome provides a compelling alternative to existing JavaScript tooling like Prettier and ESLint, potentially improving developer productivity and reducing tooling complexity. Its LSP support enables seamless integration with most code editors. Biome scores 97% compatibility with Prettier's formatting and includes a built-in linter for catching errors and enforcing code quality. It is distributed via npm as @biomejs/biome and also offers extensions for VS Code and other editors.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - Rust Daily · Jul 11, 01:39
 
-**Background**: A vector database stores and retrieves embeddings—numerical representations of data in high-dimensional space—using approximate nearest neighbor algorithms to find semantically similar items. Unlike traditional databases that rely on exact matches, vector databases enable similarity search, semantic search, and recommendations, and are fundamental to AI applications like RAG.
+**Background**: Biome is built with Rust to achieve high performance, similar to other modern developer tools like esbuild and SWC. It combines formatting and linting, which are traditionally separate tools in the JavaScript ecosystem, into one binary that can be used via the command line or integrated into editors via the Language Server Protocol (LSP). LSP is a standard protocol that enables code editors to provide language-specific features like auto-completion, linting, and refactoring.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Vector_database">Vector database</a></li>
-<li><a href="https://qdrant.tech/">Qdrant - Vector Search Engine</a></li>
-<li><a href="https://grokipedia.com/page/Qdrant">Qdrant</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Language_Server_Protocol">Language Server Protocol</a></li>
+<li><a href="https://microsoft.github.io/language-server-protocol/">Official page for Language Server Protocol</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#vector database`, `#vector search`, `#AI`, `#Rust`, `#Qdrant`
+**Tags**: `#rust`, `#web-toolchain`, `#linter`, `#formatter`, `#javascript`
 
 ---
 
 <a id="item-22"></a>
-## [Kata Containers: Lightweight VMs for Container Security](https://github.com/kata-containers/kata-containers) ⭐️ 8.0/10
+## [ParadeDB: Postgres extension for full-text and vector search](https://github.com/paradedb/paradedb) ⭐️ 8.0/10
 
-Kata Containers is an open source project that provides a standard implementation of lightweight VMs, combining container performance with VM-level isolation. It supports multiple architectures including x86_64, aarch64, ppc64le, and s390x. Kata Containers significantly enhances cloud-native security by providing stronger workload isolation than traditional containers, mitigating risks from container escape vulnerabilities. It is critical for multi-tenant environments and industries with strict security requirements. Kata Containers runs each container in its own lightweight VM with a separate kernel, using technologies like Intel VT-x, AMD SVM, ARM Hyp, and IBM Power. The project is licensed under Apache 2.0 and includes a kata-runtime check command for verifying host capabilities.
+ParadeDB introduces pg_search, a Postgres extension that adds Elastic-quality full-text search, vector retrieval, and aggregations directly into PostgreSQL. This eliminates the need for a separate search system, reducing architectural complexity and sync overhead for applications that require both transactional data and advanced search. Currently, vector indexing relies on the pgvector extension, but native vector support within the search index is planned. The extension is built on Tantivy (Rust) via pgrx.
 
-rss · GitHub Trending - Rust Daily · Jul 10, 01:41
+rss · GitHub Trending - Rust Daily · Jul 11, 01:39
 
-**Background**: Traditional containers share the host kernel, which can lead to security risks if a container escapes. Virtual machines provide strong isolation but have higher overhead. Kata Containers bridges this gap by offering lightweight VMs that feel like containers but provide VM-level security.
+**Background**: Traditionally, applications use PostgreSQL for transactional data and a separate system like Elasticsearch for full-text search, requiring data synchronization. ParadeDB aims to combine both into one database, simplifying the stack.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://katacontainers.io/">Kata Containers - Open Source Container Runtime Software</a></li>
-<li><a href="https://dev.to/kikifachry/kata-containers-lightweight-vms-for-containers-4ine">Kata Containers : Lightweight VMs for Containers - DEV Community</a></li>
-<li><a href="https://numfer.com/kata-containers/kata-containers">kata - containers : Lightweight Container Virtualization - Numfer</a></li>
+<li><a href="https://www.paradedb.com/">ParadeDB — Search without a second system</a></li>
+<li><a href="https://pgxn.org/dist/pg_search/">pg_search: Full text search for PostgreSQL using BM25 ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#containers`, `#virtualization`, `#security`, `#open-source`, `#rust`
+**Tags**: `#postgres`, `#full-text-search`, `#vector-search`, `#rust`, `#database`
 
 ---
 
 <a id="item-23"></a>
-## [Ory Kratos: Open-Source Cloud-Native Identity Management](https://github.com/ory/kratos) ⭐️ 8.0/10
+## [Google Releases ADK for Go: Open-Source Agent Toolkit](https://github.com/google/adk-go) ⭐️ 8.0/10
 
-Ory Kratos is an open-source, headless identity and user management system written in Go, offering features like passkeys, social sign-in, OIDC, and MFA, designed to replace proprietary services like Auth0 and Okta. This project provides a scalable, self-hostable alternative for identity management, aligning with cloud-native best practices and allowing developers to maintain full control over user data and authentication flows. Kratos supports passkeys (WebAuthn), magic links, SMS, SAML, TOTP, and more. It is API-first and can be self-hosted or used via the Ory Network.
+Google announced an open-source, code-first Go toolkit called Agent Development Kit (ADK) for building, evaluating, and deploying sophisticated AI agents. The toolkit is available on GitHub under the Apache 2.0 license. This brings robust AI agent development capabilities to the Go ecosystem, leveraging Go's strengths in concurrency and performance for cloud-native applications. It is part of Google's open-source ADK family, providing a model-agnostic and deployment-agnostic framework for building production-grade agents. ADK Go v2 introduces graph-based workflow agents, parallel and loop execution primitives, and Human-in-the-Loop tool confirmation. While optimized for Gemini, ADK is model-agnostic and compatible with other frameworks.
 
-rss · GitHub Trending - Go Daily · Jul 10, 01:36
+rss · GitHub Trending - Go Daily · Jul 11, 01:35
 
-**Background**: Identity and user management systems handle login, registration, and profile management. Traditional solutions like Auth0 and Okta are proprietary, while Ory Kratos is open-source and cloud-native. Passkeys use public-key cryptography for phishing-resistant authentication, and magic links provide passwordless login via email.
+**Background**: AI agents are autonomous programs that use large language models and tools to perform tasks, such as answering questions or controlling systems. Google's Agent Development Kit (ADK) is a family of open-source toolkits for building such agents, with versions for Python, Java, and Web already available. The Go version targets developers building scalable, concurrent agent applications in cloud-native environments.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/ory/kratos">GitHub - ory/kratos: Headless cloud - native authentication and...</a></li>
-<li><a href="https://www.ory.com/kratos">Cloud Native Identity & User Management System | Ory Kratos</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Passkeys_(authentication)">Passkeys (authentication)</a></li>
+<li><a href="https://github.com/google/adk-go">GitHub - google/adk-go: An open-source, code-first Go toolkit ...</a></li>
+<li><a href="https://adk.dev/get-started/go/">Go - Agent Development Kit (ADK)</a></li>
+<li><a href="https://pkg.go.dev/google.golang.org/adk">adk module - google.golang.org/adk - Go Packages</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#authentication`, `#identity management`, `#Go`, `#open-source`, `#cloud-native`
+**Tags**: `#Go`, `#AI agents`, `#toolkit`, `#open-source`, `#Google`
 
 ---
 
 <a id="item-24"></a>
-## [MediaMTX: Open-source live media server and proxy](https://github.com/bluenviron/mediamtx) ⭐️ 8.0/10
+## [gVisor: Application Kernel for Containers](https://github.com/google/gvisor) ⭐️ 8.0/10
 
-MediaMTX is a ready-to-use, zero-dependency live media server and proxy that supports multiple streaming protocols including Media-over-QUIC, SRT, WebRTC, RTSP, RTMP, HLS, MPEG-TS, and RTP. It is written in Go and designed as a media router for efficient and portable stream handling. MediaMTX simplifies live media infrastructure by automatically converting between protocols, allowing users to publish and read streams from a wide range of sources and players. Its broad protocol support and features like recording, authentication, and hot reloading make it a valuable tool for developers and media engineers. The server supports publishing via FFmpeg, GStreamer, OBS Studio, web browsers, and more, and reading via VLC, OBS Studio, etc. It also offers Prometheus-compatible metrics, a control API, and hooks for automation.
+Google's gVisor is an open-source application kernel that provides a security sandbox for containers by intercepting system calls and running in userspace, written in Go. gVisor significantly enhances container security by limiting the host kernel surface accessible to applications, reducing the risk of container escape attacks while maintaining low resource overhead. gVisor includes an OCI-compliant runtime called runsc that integrates with Docker and Kubernetes, allowing sandboxed containers to run with existing tooling without modification.
 
-rss · GitHub Trending - Go Daily · Jul 10, 01:36
+rss · GitHub Trending - Go Daily · Jul 11, 01:35
 
-**Background**: Live media streaming relies on various protocols, each with trade-offs in latency, reliability, and compatibility. Traditional servers often require separate components for different protocols. MediaMTX acts as a unified server that bridges these protocols, simplifying deployment and management in streaming workflows.
+**Background**: Containers share the host kernel, which can lead to security vulnerabilities if an attacker escapes the container. gVisor implements a Linux-like interface entirely in userspace using a memory-safe language (Go), providing a distinct third approach between syscall filtering and virtual machines.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://moq.dev/">Media over QUIC</a></li>
-<li><a href="https://www.nanocosmos.net/blog/media-over-quic-moq/">Media Over QUIC Explained: Benefits & How It Works</a></li>
+<li><a href="https://github.com/google/gvisor">GitHub - google/gvisor: Application Kernel for Containers</a></li>
+<li><a href="https://gvisor.dev/">The Container Security Platform - gVisor</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#media server`, `#streaming`, `#open source`, `#golang`, `#WebRTC`
+**Tags**: `#container`, `#security`, `#sandbox`, `#kernel`, `#google`
 
 ---
 
 <a id="item-25"></a>
-## [Anthropic Offers Free Claude Max 20x to Open Source Devs](https://www.nodeseek.com/post-816585-1) ⭐️ 8.0/10
+## [OpenTofu: Open-Source Fork of Terraform Gains Momentum](https://github.com/opentofu/opentofu) ⭐️ 8.0/10
 
-Anthropic is offering free 6-month subscriptions to Claude Max 20x, normally $100 per month, to open source developers. The offer is available to authors of popular open source libraries, contributors with over 100 pull requests, and other open source developers. This provides significant value to open source developers by granting free access to a premium AI tool that normally costs $1,200 for six months. It lowers the barrier for developers to leverage advanced AI assistance in their open source projects, potentially accelerating development and fostering innovation in the open source ecosystem. The Claude Max 20x plan offers 20 times more usage than the Pro plan, including higher output limits and early access to advanced features. The offer runs until July 12, 2025, and while spots are limited, Anthropic encourages all open source developers to apply.
+OpenTofu is a fully open-source infrastructure as code tool forked from Terraform, now available on GitHub under a permissive license. This fork addresses community concerns over Terraform's license change from MPL to BSL, ensuring continued open-source development and avoiding vendor lock-in for DevOps teams. OpenTofu is hosted by the Linux Foundation under the OpenTofu Foundation and has achieved the OpenSSF Best Practices Badge, indicating adherence to security best practices.
 
-rss · NodeSeek · Jul 10, 22:55
+rss · GitHub Trending - Go Daily · Jul 11, 01:35
 
-**Background**: Claude is an AI assistant developed by Anthropic, and the Max plan is a premium subscription tier that provides substantially higher usage than the standard Pro plan. The 20x tier allows for more intensive AI interactions, making it suitable for heavy users like developers who need frequent assistance. This initiative is part of Anthropic's effort to support the open source community.
+**Background**: Infrastructure as Code (IaC) allows managing cloud infrastructure via declarative configuration files instead of manual processes. Terraform, originally open-source under MPL, changed its license to BSL in August 2023, prompting the community to fork into OpenTofu to preserve open-source freedoms.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://support.anthropic.com/en/articles/11014257-about-claude-s-max-plan-usage">About Claude 's Max Plan Usage | Anthropic Help Center</a></li>
-<li><a href="https://claude.com/pricing">Plans & Pricing | Claude by Anthropic</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Infrastructure_as_code">Infrastructure as code</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Anthropic`, `#Claude`, `#open source`, `#free subscription`
+**Tags**: `#infrastructure-as-code`, `#terraform`, `#open-source`, `#cloud`, `#devops`
 
 ---
 
 <a id="item-26"></a>
-## [BYD wins 11.275 GWh storage contract for world's largest solar-plus-storage project](https://www.ithome.com/0/975/351.htm) ⭐️ 8.0/10
+## [Brown professor suspects AI cheating after exam score plunge](https://www.ithome.com/0/975/630.htm) ⭐️ 8.0/10
 
-BYD Energy Storage has signed a contract with Masdar to supply 11.275 GWh of battery storage for the world's largest solar-plus-storage project in Abu Dhabi, known as the Round the Clock (RTC) project. This is one of the largest single battery storage procurement contracts globally, advancing large-scale renewable integration by enabling 24/7 clean power. It also highlights Chinese dominance in the global energy storage market. BYD will deploy its Haohan (Haohan) storage system featuring a 2710 Ah blade cell, with a minimum unit capacity of 14.5 MWh and a 10 MWh container-level capacity. The system boasts IP66 protection and operates from -30°C to 55°C.
+Brown University economics professor Roberto Serrano discovered suspected widespread AI cheating in take-home midterm exams after students' scores dropped sharply when he switched the final to an in-person closed-book format. This incident highlights a growing challenge in academic integrity as AI tools make cheating nearly cost-free, and it has sparked widespread debate about the trustworthiness of a generation of students entering the workforce. Many students who scored over 90 on the midterm received scores in the 50s on the final, and some high-performing students skipped the in-person final altogether. The case has been referred to Brown's academic integrity committee for investigation.
 
-rss · IT之家 · Jul 10, 13:40
+rss · IT之家 · Jul 11, 22:51
 
-**Background**: The Round the Clock (RTC) project combines a 5.2 GW solar farm with a 19 GWh battery storage system to provide 1 GW of continuous baseload power. Battery Energy Storage Systems (BESS) are crucial for storing excess solar power and discharging it when the sun is not shining, thus overcoming solar intermittency.
+**Background**: Welfare economics and social choice theory are advanced economic fields that analyze societal well-being and collective decision-making. Professors often assess understanding through exams that require critical thinking, but take-home exams become vulnerable when AI can generate plausible answers. Brown University had switched to take-home exams after a shooting incident in December 2025.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://etedge-insights.com/industry/energy/the-midnight-sun-rtc-is-the-industrialization-of-renewables-and-the-path-to-energy-sovereignty/">The midnight sun: RTC is the industrialization of... - ET Edge Insights</a></li>
-<li><a href="https://www.dentons.com/en/find-your-dentons-team/industry-sectors/energy/renewables/regional-sectors/renewable-energy-in-australia/battery-energy-storage-systems-bess">Dentons - Battery Energy Storage Systems ( BESS )</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Welfare_economics">Welfare economics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Social_choice_theory">Social choice theory</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#energy storage`, `#solar energy`, `#renewable energy`, `#BYD`, `#battery storage`
+**Discussion**: Online discussions praised a student who scored 95.5 on both exams and another who consistently scored around 55-59, while many debated whether graduates who rely on AI cheating can be trusted in professional settings. Professor Serrano emphasized that he values integrity and would hire consistent performers.
+
+**Tags**: `#AI ethics`, `#academic integrity`, `#education`, `#cheating`, `#Brown University`
 
 ---
 
 <a id="item-27"></a>
-## [EU Finds Meta's Instagram, Facebook Addictive, Risks Fine](https://www.ithome.com/0/975/321.htm) ⭐️ 8.0/10
+## [ZhiPu Founder Announces 'Touch High' Plan to Prioritize AGI Research](https://www.ithome.com/0/975/620.htm) ⭐️ 8.0/10
 
-The European Commission has preliminarily found that Meta's Instagram and Facebook violate the Digital Markets Act due to addictive design features such as autoplay and infinite scroll. Meta faces potential fines of up to 6% of its global annual revenue if it does not address these issues. This ruling could set a precedent for regulating addictive design patterns across social media platforms, forcing companies to redesign user interfaces to prioritize user well-being over engagement. It also signals the EU's intensified enforcement of the Digital Markets Act against major tech companies. The EU specifically criticized features like Reels and Stories for promoting compulsive usage, and stated that Meta's current time management tools are easily ignored by users. Meta must propose changes such as disabling autoplay by default and implementing effective break reminders.
+ZhiPu founder Tang Jie released an internal letter announcing the 'Touch High' plan, which recommits the company to AGI research over short-term monetization, with a focus on long-horizon tasks, autonomous agents, self-training, and safety via mechanistic interpretability. The company plans to invest billions of yuan in mechanistic interpretability to make AI systems transparent. This strategic shift underscores a trend among leading AI companies to prioritize long-term AGI research over rapid commercialization, potentially influencing the direction of the entire AI industry. The emphasis on mechanistic interpretability and safety also highlights growing concerns about AI alignment and transparency. The four technical pillars are long-horizon tasks, autonomous agent systems, fully self-training, and extreme safety governance based on mechanistic interpretability. The company will allocate 'hundreds of billions' (百亿级) in resources to reverse-engineer neural networks and make them interpretable.
 
-rss · IT之家 · Jul 10, 11:30
+rss · IT之家 · Jul 11, 14:35
 
-**Background**: The Digital Markets Act (DMA) is an EU regulation aimed at making digital markets fairer and more contestable by imposing obligations on large online platforms known as 'gatekeepers'. Addictive design patterns, such as infinite scroll and autoplay, are techniques that exploit psychological vulnerabilities to maximize user engagement, often leading to overuse. The EU has previously taken similar action against TikTok in February 2024.
+**Background**: Mechanistic interpretability is a field of AI research that aims to reverse-engineer neural networks by identifying circuits and algorithms that drive model behavior, rather than treating them as black boxes. Autonomous agents are AI systems that can perform complex tasks independently, often involving planning, memory, and self-correction. ZhiPu, known for its GLM series, has historically taken a 'counter-intuitive' approach, such as launching GLM-130B before ChatGPT's release.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/EU_Digital_Markets_Act">EU Digital Markets Act</a></li>
-<li><a href="https://uxdesign.cc/do-stories-make-social-media-more-addictive-3a1519983565">Do stories make social media more addictive ? | by Anna E. Cook...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">Mechanistic interpretability</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Autonomous_agent">Autonomous agent</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#EU regulation`, `#Meta`, `#social media`, `#Digital Markets Act`, `#addictive design`
+**Tags**: `#AGI`, `#AI Safety`, `#Mechanistic Interpretability`, `#ZhiPu`, `#Strategic Announcement`
 
 ---
 
 <a id="item-28"></a>
-## [GPT-5.6 Full Release and Codex Merged into ChatGPT](https://www.36kr.com/p/3889069642742403) ⭐️ 8.0/10
+## [Hackers Poison GitHub with Malicious Go Module Across 200+ Repos](https://www.ithome.com/0/975/577.htm) ⭐️ 8.0/10
 
-OpenAI has fully released the GPT-5.6 series (Sol, Terra, Luna) and merged Codex directly into ChatGPT, transforming it into an integrated coding mode. The company also launched ChatGPT Work, a desktop app with autonomous agent capabilities. This release significantly boosts coding assistance within ChatGPT and offers improved cost-efficiency, potentially reshaping developer workflows and making advanced AI more accessible. The integration of Codex means coding capabilities are no longer a separate tool but a core part of ChatGPT. GPT-5.6 Sol achieves up to 750 tokens per second in speed and is priced lower than Anthropic's Claude Fable 5 (input $5 vs $10 per million tokens, output $30 vs $50). The Codex merge is not just an entry point but a full integration, even allowing the app icon to change to ChatGPT.
+Security researchers at Socket reported a large-scale campaign dubbed 'Muck and Load,' where attackers used a malicious Go module disguised as a DNS scanning tool on GitHub to distribute remote access trojans, info-stealers, and cryptominers across over 200 repositories since January 2026. This supply chain attack targets developers directly, leveraging the trust in open-source ecosystems and automated workflows to hide malicious activity. It highlights the growing sophistication of attacks on package registries and the need for stricter validation of dependencies. The malicious Go module, hosted under the namespace 'kaleidora/dnsub-scanning-tool,' generated over 1,200 versions in months, with more than 700 confirmed malicious. It used a dead drop resolver technique to fetch payloads from public services like Pastebin, YouTube, and Telegram, making it resilient to takedowns.
 
-rss · 36氪 - 24小时热榜 · Jul 10, 00:43
+rss · IT之家 · Jul 11, 11:14
 
-**Background**: GPT-5.6 is OpenAI's latest model series, featuring three tiers (Sol, Terra, Luna) with varying price and performance points. Codex is an AI coding agent that can build, debug, and deploy applications autonomously, previously available as a separate product. ChatGPT Work is a new desktop application that acts as an AI colleague, capable of running across multiple apps for extended periods. Claude Fable 5 is Anthropic's most powerful model, specialized in software engineering and analytics.
+**Background**: Go modules are the standard dependency management system for Go projects; pseudo-versions are automatically generated version strings based on commits. GitHub Actions is a CI/CD platform that can automate tasks like building and releasing code. Attackers exploited these features by creating numerous malicious versions via frequent commits, and used GitHub Actions to simulate active development, tricking developers into downloading the malware.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/index/previewing-gpt-5-6-sol/">Previewing GPT - 5 . 6 Sol : a next-generation model | OpenAI</a></li>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
-<li><a href="https://vncmac.com/en/blog/chatgpt-work-codex-merged-chatgpt-2026.html">ChatGPT Work Launch: Codex Merged | VNCMac</a></li>
+<li><a href="https://socket.dev/blog/malicious-package-exploits-go-module-proxy-caching-for-persistence">Go Supply Chain Attack: Malicious Package Exploits Go Module...</a></li>
+<li><a href="https://jfrog.com/blog/go-big-with-pseudo-versions-and-gocenter/">Mastering Go Modules Pseudoversions | JFrog GoCenter</a></li>
+<li><a href="https://docs.github.com/en/actions">GitHub Actions documentation - GitHub Docs</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#GPT-5.6`, `#OpenAI`, `#Codex`, `#ChatGPT`, `#AI`
+**Tags**: `#malware`, `#GitHub`, `#supply chain attack`, `#Go module`
 
 ---
 
 <a id="item-29"></a>
-## [Meta's Muse Spark 1.1 Overtakes Grok 4.5 at Low Cost](https://www.36kr.com/p/3889024774486788) ⭐️ 8.0/10
+## [Hidden Hot Spot Sensors Unlocked on RTX 50 GPUs: Local Temps Hit 107°C](https://www.ithome.com/0/975/534.htm) ⭐️ 8.0/10
 
-Meta released Muse Spark 1.1, a multimodal reasoning model that tops tax, medical, and legal benchmarks, surpassing Grok 4.5 in legal tasks within 24 hours of Grok's own top ranking. The model is priced at $1.25 per million tokens input and $4.25 output, roughly 10x cheaper than Anthropic's Fable 5. This marks a significant shift in AI economics, proving that high performance in specialized domains can be achieved at a fraction of the cost of competitors. It pressures rivals like Grok and Anthropic to either lower prices or justify premium pricing, and democratizes access to advanced agentic capabilities for developers. Muse Spark 1.1 features a 1-million-token context window with automatic compression, multi-agent orchestration, and adaptive computer use (choosing between scripting and GUI). However, it lags in general reasoning benchmarks (e.g., GPQA 12th, LiveCodeBench 17th) and shows inconsistent performance across similar tasks.
+Brazilian modder Paulo Gomes unlocked hidden hot spot temperature sensors on NVIDIA RTX 50 series GPUs, revealing that while average GPU temperature reads 70-80°C, the hot spot can exceed 107°C, causing performance throttling due to thermal protection. This discovery exposes a potential cooling issue that NVIDIA attempted to hide by removing hot spot temperature monitoring from software tools. It affects RTX 50 users who may experience degraded performance without realizing the cause, and raises concerns about long-term hardware reliability. NVIDIA removed API support for reading hot spot temperature in RTX 50 series, but the sensors remain on the die. The modder found that after replacing thermal paste, hot spot temperature dropped to about 100°C and performance normalized, confirming a contact issue between cooler and chip.
 
-rss · 36氪 - 24小时热榜 · Jul 9, 23:59
+rss · IT之家 · Jul 11, 09:11
 
-**Background**: Muse Spark 1.1 is the second model from Meta's Superintelligence Lab, led by Alexandr Wang, after the initial Muse Spark in April 2026. It is designed as an agentic model for real-world coding and tool use, not a general-purpose chatbot. Meta has heavily invested in AI infrastructure, with $14.3B for Scale AI stake and $125-145B in 2026 infrastructure spending.
+**Background**: GPU hot spot temperature (or junction temperature) is the highest temperature measured at a specific point on the GPU die, typically 10-20°C higher than the average core temperature. It is a critical metric for diagnosing cooling issues such as improper cooler mounting or poor thermal paste application. NVIDIA's decision to hide this data from monitoring tools makes it difficult for users to detect such problems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2ltdEl2Q0VSR0FWZ2FZSF9oQVFpZ0FQAQ?hl=en-IL&gl=IL&ceid=IL:en">Google News - Meta Muse Spark 1 . 1 announcement - Overview</a></li>
-<li><a href="https://www.datacamp.com/blog/muse-spark-1-1">Muse Spark 1 . 1 : Meta's Agentic Model and API | DataCamp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Grok_4.5">Grok 4.5</a></li>
+<li><a href="https://www.needsomefun.net/gpu-hotspot-temperature-monitor-fix/">GPU Hotspot Temperature : How to Monitor It and Fix 90°C+...</a></li>
+<li><a href="https://www.reliableport.com/gpu-problem/what-is-gpu-hotspot-temperature/">What Is Gpu Hotspot Temperature - A Comprehensive Guide</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The news sparked discussion on X, with some joking that Zuckerberg entered 'founder mode.' Replit CEO Amjad Masad called it a 'complete agent base,' and the Cline CEO noted that pricing makes large-scale real coding tasks economically viable. However, some pointed out that the model's strength is cheap agents, not overall intelligence.
-
-**Tags**: `#AI`, `#Meta`, `#Muse Spark`, `#Grok`, `#low-cost model`
+**Tags**: `#NVIDIA`, `#RTX 50`, `#GPU temperature`, `#hardware modding`, `#thermal issues`
 
 ---
 
 <a id="item-30"></a>
-## [Chinese Courts Rule Game Accounts Inheritable, Platform Bans Invalid](https://www.tomshardware.com/tech-industry/big-tech/chinese-courts-allow-heirs-to-inherent-accounts-of-deceased-gamers-multiple-cases-spanning-years-establish-precedent-for-digital-ownership-of-games-in-game-items-and-microtransactions) ⭐️ 8.0/10
+## [U-Boot vulnerabilities since 2013 threaten millions of devices](https://www.ithome.com/0/975/531.htm) ⭐️ 8.0/10
 
-Chinese courts in multiple rulings over several years have determined that virtual assets such as game accounts, in-game items, and cryptocurrencies constitute inheritable property, invalidating platform terms that prohibit inheritance. This establishes a significant legal precedent for digital inheritance in China, potentially affecting platform policies and user rights across the gaming and digital asset industries. The courts ruled that chat logs and purely private content are not inheritable; instead, platforms must archive them. Platforms are allowed to charge reasonable fees for assisting with the transfer of accounts.
+Firmware security company Binarly disclosed six high-risk vulnerabilities in the U-Boot bootloader on July 9, 2026, two of which can lead to arbitrary code execution and four to denial-of-service attacks. These vulnerabilities have persisted since U-Boot v2013.07 and affect millions of devices across more than 50 stable releases, allowing attackers to gain control before the operating system boots, potentially bypassing all security measures and enabling persistent firmware backdoors. The critical flaws (BRLY-2026-037 and BRLY-2026-038) stem from unchecked return values of the fdt_get_name function in the device tree parsing code, causing null pointer dereference and negative length values that lead to stack buffer overflow and arbitrary code execution.
 
-telegram · zaihuapd · Jul 10, 02:56
+rss · IT之家 · Jul 11, 08:54
 
-**Background**: Digital inheritance refers to the transfer of digital assets after a person's death. In many jurisdictions, the legal status of virtual property like game accounts is unclear. These Chinese rulings clarify that such virtual assets can be treated as property under inheritance law, overriding platform terms of service that attempt to restrict transfer.
+**Background**: U-Boot is an open-source bootloader widely used in embedded devices to initialize hardware and load the operating system kernel. The Flattened Image Tree (FIT) format is used to package multiple images (e.g., kernel, device tree) with hashes and signatures for secure boot. The discovered vulnerabilities reside in the FIT signature verification code, which is supposed to ensure only trusted firmware is loaded.
 
-**Tags**: `#digital inheritance`, `#virtual property`, `#China`, `#gaming`, `#legal`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Das_U-Boot">Das U-Boot - Wikipedia</a></li>
+<li><a href="https://www.binarly.io/advisories/brly-2026-037">Null pointer dereference and potential stack buffer overflow in... | Binarly</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#vulnerability`, `#U-Boot`, `#firmware`, `#bootloader`
 
 ---
 
 <a id="item-31"></a>
-## [OpenAI, Google reportedly provided AI models to blacklisted Chinese firms via Singapore](https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f) ⭐️ 8.0/10
+## [AI Compute Oversupply Is a Myth, New Data Shows](https://www.36kr.com/p/3890714124106376) ⭐️ 8.0/10
 
-According to a Financial Times report, OpenAI and Google have provided advanced AI services to Singapore-based subsidiaries of Alibaba, Baidu, and Tencent, whose parent companies are on the US Department of Defense's 1260H list of Chinese military-linked entities. This raises significant concerns about the effectiveness of US export controls on AI technology, as it reveals a potential loophole where Chinese companies can access cutting-edge models through overseas subsidiaries. It could intensify calls for stricter regulations on AI model access. The transactions are currently legal because US restrictions do not broadly prohibit Chinese parent companies from obtaining AI models outside mainland China. However, OpenAI previously suspended an Alibaba-affiliated user's API access after detecting suspected model distillation and reported it to US authorities.
+An analysis counters the narrative of AI compute oversupply by highlighting that Anthropic has secured over 11.7 GW of compute capacity in the past year, while Meta's reported surplus is actually a misallocation, not an industry-wide glut. This distinction is critical for investors, cloud providers, and AI developers because it suggests that leading-edge compute remains scarce, contrary to recent market fears of overbuilding. Anthropic's commitments include deals with Google, Broadcom, AWS, Microsoft, Nvidia, and SpaceX's Colossus data centers, with deliveries spanning through 2028. Meta, meanwhile, plans to double its total capacity to 14 GW despite selling some surplus capacity.
 
-telegram · zaihuapd · Jul 10, 09:59
+rss · 36氪 - 24小时热榜 · Jul 11, 04:29
 
-**Background**: The 1260H list is a US Department of Defense list of Chinese military companies, subject to certain sanctions. Model distillation refers to techniques where a smaller model learns from a larger model's outputs, which can be misused to illicitly replicate proprietary AI models. These concepts are central to understanding the regulatory and technical concerns in this report.
+**Background**: The term 'compute oversupply' emerged after Meta and SpaceX began selling excess AI compute capacity. However, this reflects individual companies' miscalculations rather than a market-wide surplus. Anthropic's explosive revenue growth—from $9 billion annualized in late 2025 to over $30 billion by April 2026—drives its insatiable demand for compute.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/1260H_list">1260H list</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Model_distillation">Model distillation</a></li>
+<li><a href="https://fluidstack.io/">Fluidstack</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Colossus_(data_center)">Colossus (data center) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI`, `#OpenAI`, `#Google`, `#export-controls`, `#China`
+**Tags**: `#AI算力`, `#算力过剩`, `#云计算`, `#数据中心`, `#行业分析`
 
 ---
 
 <a id="item-32"></a>
-## [SK Hynix Raises $26.5B in Largest Foreign IPO on Nasdaq](https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo) ⭐️ 8.0/10
+## [VultronRetriever models achieve top MTEB rankings with offline mobile capability](https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/) ⭐️ 8.0/10
 
-SK Hynix made its Nasdaq debut on July 10, 2026, as an American Depositary Receipt (ADR) priced at $149 per share, raising approximately $26.5 billion after selling 177.9 million ADRs. The stock rose 14% on its first trading day, opening at around $170. This is the largest IPO by a foreign company in U.S. history, surpassing Alibaba's $25 billion record in 2014. It underscores surging demand for High Bandwidth Memory (HBM) chips driven by AI workloads, with SK Hynix as the top HBM supplier to NVIDIA and AMD. The offering was oversubscribed more than 7 times, reflecting strong investor appetite. Globally, the IPO ranks second only to SpaceX's $85.7 billion raise.
+The VultronRetriever family of models (Prime 8B, Core 4.5B, Flash 0.8B) was released, achieving #1 in their respective MTEB classes, with Prime 8B being the global #1. The models demonstrated running Q&A and embedding documents fully offline on an iPhone. This release sets a new state-of-the-art for retrieval and embedding tasks, offering up to 16x smaller storage footprint and 12x higher throughput compared to previous 9B-class leaders, while enabling real-time offline AI on edge devices like smartphones. VultronRetrieverPrime-8B uses the Hydra architecture for late interaction retrieval, providing unmatched precision and up to half the memory of comparable models. The Flash 0.8B model indexes up to 60 images per minute fully offline and runs cool on edge devices.
 
-telegram · zaihuapd · Jul 10, 16:02
+reddit · r/MachineLearning · /u/madkimchi · Jul 11, 15:22
 
-**Background**: High Bandwidth Memory (HBM) is a 3D-stacked DRAM design that vertically integrates multiple memory dies using through-silicon vias, enabling high bandwidth and low power for AI accelerators. American Depositary Receipts (ADRs) are U.S.-traded securities representing shares of a foreign company, allowing U.S. investors to invest without cross-border complexities.
+**Background**: MTEB (Massive Text Embedding Benchmark) is a widely used leaderboard for evaluating embedding models on diverse tasks. Late interaction retrieval, popularized by models like ColBERT, enables fine-grained token-level matching between queries and documents, often improving retrieval accuracy. The Hydra architecture unifies document retrieval and generation in a single vision-language model, reducing memory footprint.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.utmel.com/blog/categories/memory-chip/will-hbm-replace-ddr-and-become-computer-memory">Will HBM replace DDR and become Computer Memory ? - Utmel</a></li>
-<li><a href="https://www.investopedia.com/terms/a/adr.asp">investopedia.com/terms/a/ adr .asp</a></li>
+<li><a href="https://huggingface.co/spaces/mteb/leaderboard">MTEB Leaderboard - a Hugging Face Space by mteb</a></li>
+<li><a href="https://arxiv.org/html/2603.28554">Hydra: Unifying Document Retrieval and Generation in a Single Vision-Language Model</a></li>
+<li><a href="https://weaviate.io/blog/late-interaction-overview">An Overview of Late Interaction Retrieval Models: ColBERT, ColPali, and ColQwen | Weaviate</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#SK Hynix`, `#IPO`, `#AI`, `#Semiconductors`, `#HBM`
+**Tags**: `#retrieval`, `#SOTA`, `#edge AI`, `#embeddings`, `#MTEB`
+
+---
+
+<a id="item-33"></a>
+## [SK Hynix CEO Warns of Worst-Ever Memory Shortage by 2027](https://www.reuters.com/world/asia-pacific/sk-hynix-ceo-sees-worst-ever-memory-supply-shortage-2027-says-demand-outstrip-2026-07-10/) ⭐️ 8.0/10
+
+SK Hynix CEO Gwak Noh-jeong warned that the global memory industry will face its worst supply shortage in history by 2027, with demand outstripping supply even after expansion. The warning came on the day SK Hynix began trading on the Nasdaq, closing up 13.3% at $168.85. This prediction has major implications for the tech industry, especially for AI and machine learning hardware that relies on high-bandwidth memory. A severe shortage could disrupt supply chains, increase costs, and slow down development in key sectors. Gwak noted that SK Hynix is considering locations in the U.S., Japan, and Southeast Asia for overseas fabs, prioritizing areas with favorable land, power, and labor costs. SK Hynix reported a record operating profit of 47 trillion won ($31 billion) in 2025 and expects second-quarter 2026 profit to rise further to 65.5 trillion won.
+
+telegram · zaihuapd · Jul 11, 00:45
+
+**Background**: Memory chips, such as DRAM and NAND, are critical components in computers, smartphones, and servers. Demand has surged recently due to the growth of AI, which requires massive amounts of high-bandwidth memory (HBM) for training and inference. SK Hynix is a leading manufacturer of HBM, supplying companies like NVIDIA.
+
+**Tags**: `#memory shortage`, `#SK Hynix`, `#semiconductor`, `#supply chain`, `#AI hardware`
+
+---
+
+<a id="item-34"></a>
+## [Apple sues OpenAI for trade secret theft](https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html) ⭐️ 8.0/10
+
+On July 10, 2026, Apple filed a lawsuit in the U.S. District Court for Northern California against OpenAI, two former Apple employees, and io Products, accusing them of systematically stealing trade secrets to advance OpenAI's consumer hardware business. This lawsuit underscores the fierce competition in AI hardware development and could set a legal precedent for trade secret protection in employee mobility between tech giants. If Apple's claims are proven, it may significantly delay OpenAI's hardware ambitions and reshape industry practices. Apple alleges former employee Chang Liu accessed internal networks after leaving and downloaded dozens of hardware files; OpenAI hardware chief Tang Yew Tan sent supplier data to his personal email before resigning and asked job candidates to bring Apple components to interviews. Apple also claims over 400 former employees now work at OpenAI.
+
+telegram · zaihuapd · Jul 11, 03:14
+
+**Background**: Trade secrets are confidential business information that provides a competitive advantage, such as product designs and manufacturing processes. This legal case highlights the high stakes in the race to develop consumer AI hardware, where proprietary knowledge can be a critical differentiator.
+
+**Tags**: `#Apple`, `#OpenAI`, `#lawsuit`, `#trade secrets`, `#AI hardware`
+
+---
+
+<a id="item-35"></a>
+## [Shanghai sets 2027 goal for high-quality brain control and clinical BCI](https://t.me/zaihuapd/42501) ⭐️ 8.0/10
+
+The Shanghai Science and Technology Commission released the 'Shanghai Brain-Computer Interface Future Industry Cultivation Action Plan (2025-2030),' aiming to achieve high-quality brain control by 2027, with semi-invasive BCI products becoming the first to enter clinical use in China and breakthroughs in invasive BCI research. This plan signals strong government backing for BCI technology, accelerating clinical adoption and positioning Shanghai as a global leader in neurotechnology. It will drive innovation and investment, potentially benefiting patients with paralysis or speech disorders. The plan aims to have five or more invasive and semi-invasive BCI products complete medical device type testing and clinical trials, targeting restoration of partial language and motor functions for patients with aphasia and paralysis.
+
+telegram · zaihuapd · Jul 11, 15:49
+
+**Background**: Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices. Semi-invasive BCIs, like electrocorticography (ECoG), place electrodes on the brain's surface, while invasive BCIs implant electrodes into brain tissue, offering higher signal resolution but requiring surgery. Non-invasive BCIs use scalp electrodes. The plan focuses on semi-invasive and invasive approaches for medical applications.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Brain–computer_interface">Brain–computer interface - Wikipedia</a></li>
+<li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12671281/">Invasive Brain-Computer Interfaces: A Critical Assessment of Current Developments and Future Prospects - PMC</a></li>
+<li><a href="https://www.cambridge.org/core/books/braincomputer-interfacing/semiinvasive-bcis/88350B9A950FCA8A356EE5A52CABE664">Semi-Invasive BCIs (Chapter 8) - Brain-Computer Interfacing</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#brain-computer interface`, `#policy`, `#neurotechnology`, `#China`, `#clinical application`
 
 ---
