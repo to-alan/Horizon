@@ -1,5 +1,4 @@
 {
-  "version": "1.0",
   "ai": {
     "provider": "openai",
     "model": "gpt-5.6",
@@ -15,85 +14,135 @@
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
   },
+  "processing": {
+    "profiles_dir": "profiles",
+    "default_profile": "tech-news",
+    "profile_settings": {
+      "tech-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      },
+      "tech-blog": {
+        "threshold": 4.0,
+        "topic_dedup": false
+      },
+      "finance-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      }
+    }
+  },
+  "display": {
+    "icon_style": "emoji"
+  },
   "sources": {
     "github": [
       {
         "type": "user_events",
         "username": "karpathy",
-        "enabled": true
+        "enabled": true,
+        "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "vllm-project",
         "repo": "vllm",
-        "enabled": true
+        "enabled": true,
+        "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "sgl-project",
         "repo": "sglang",
-        "enabled": true
+        "enabled": true,
+        "profile": "tech-news"
       },
       {
         "type": "repo_releases",
         "owner": "triton-lang",
         "repo": "triton",
-        "enabled": true
+        "enabled": true,
+        "profile": "tech-news"
       }
     ],
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
-      "min_score": 150
+      "min_score": 150,
+      "profile": "tech-news"
     },
     "rss": [
       {
         "name": "Simon Willison",
         "url": "https://simonwillison.net/atom/everything/",
         "enabled": true,
-        "category": "ai-tools"
+        "category": "ai-tools",
+        "profile": "tech-news"
+      },
+      {
+        "name": "vLLM Blog",
+        "url": "https://vllm.ai/blog/rss.xml",
+        "enabled": true,
+        "category": "llm-inference",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "CNBC Finance",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news",
+        "content_extractor": "trafilatura"
       },
       {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
-        "category": "github-trending"
-      },
-      {
-        "name": "GitHub Trending - Python Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
-        "enabled": true,
-        "category": "github-trending"
-      },
-      {
-        "name": "GitHub Trending - TypeScript Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/typescript.xml",
-        "enabled": true,
-        "category": "github-trending"
-      },
-      {
-        "name": "GitHub Trending - Rust Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/rust.xml",
-        "enabled": true,
-        "category": "github-trending"
-      },
-      {
-        "name": "GitHub Trending - Go Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/go.xml",
-        "enabled": true,
-        "category": "github-trending"
+        "category": "github-trending",
+        "profile": "tech-news"
       },
       {
         "name": "Semianalysis",
         "url": "https://newsletter.semianalysis.com/feed",
         "enabled": true,
-        "category": "semiconductors"
+        "category": "semiconductors",
+        "profile": "tech-news"
       },
       {
         "name": "LWN.net",
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": true,
-        "category": "linux-kernel"
+        "category": "linux-kernel",
+        "profile": "tech-news"
+      },
+      {
+        "name": "GitHub Trending - Python Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/python.xml",
+        "enabled": true,
+        "category": "github-trending",
+        "profile": "tech-news"
+      },
+      {
+        "name": "GitHub Trending - TypeScript Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/typescript.xml",
+        "enabled": true,
+        "category": "github-trending",
+        "profile": "tech-news"
+      },
+      {
+        "name": "GitHub Trending - Rust Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/rust.xml",
+        "enabled": true,
+        "category": "github-trending",
+        "profile": "tech-news"
+      },
+      {
+        "name": "GitHub Trending - Go Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/go.xml",
+        "enabled": true,
+        "category": "github-trending",
+        "profile": "tech-news"
       },
       {
         "name": "Alan's Blog - 个人博客",
@@ -207,13 +256,15 @@
         "name": "VPS信号旗播报 - Telegram Channel",
         "url": "https://rss.toalan.com/telegram/channel/vps_xhq",
         "enabled": true,
-        "category": "VPS"
+        "category": "VPS",
+        "profile": "tech-news"
       },
       {
         "name": "安格视界",
         "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC_IqtIeZDp0t7cAxRWW6t9A",
         "enabled": true,
-        "category": "VPS"
+        "category": "VPS",
+        "profile": "tech-news"
       },
       {
         "name": "Twitter @OpenAI",
@@ -273,19 +324,22 @@
         "name": "LINUX DO - 最新话题",
         "url": "https://linux.do/latest.rss",
         "enabled": true,
-        "category": "论坛"
+        "category": "论坛",
+        "profile": "tech-news"
       },
       {
         "name": "小Lin说 - YouTube",
         "url": "https://rss.toalan.com/youtube/user/%40xiao_lin_shuo",
         "enabled": true,
-        "category": "Youtube"
+        "category": "Youtube",
+        "profile": "tech-news"
       },
       {
         "name": "不良林 - YouTube",
         "url": "https://rss.toalan.com/youtube/user/%40bulianglin",
         "enabled": true,
-        "category": "Youtube"
+        "category": "Youtube",
+        "profile": "tech-news"
       }
     ],
     "reddit": {
@@ -297,7 +351,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
-          "min_score": 50
+          "min_score": 50,
+          "profile": "tech-news"
         },
         {
           "subreddit": "LocalLLaMA",
@@ -305,7 +360,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
-          "min_score": 60
+          "min_score": 60,
+          "profile": "tech-news"
         },
         {
           "subreddit": "OpenAI",
@@ -313,7 +369,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 30
+          "min_score": 30,
+          "profile": "tech-news"
         },
         {
           "subreddit": "artificial",
@@ -321,7 +378,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 50
+          "min_score": 50,
+          "profile": "tech-news"
         },
         {
           "subreddit": "technology",
@@ -329,7 +387,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 500
+          "min_score": 500,
+          "profile": "tech-news"
         },
         {
           "subreddit": "programming",
@@ -337,7 +396,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 150
+          "min_score": 150,
+          "profile": "tech-news"
         },
         {
           "subreddit": "selfhosted",
@@ -345,7 +405,8 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 50
+          "min_score": 50,
+          "profile": "tech-news"
         }
       ],
       "users": [],
@@ -357,7 +418,11 @@
         {
           "channel": "zaihuapd",
           "enabled": true,
-          "fetch_limit": 20
+          "fetch_limit": 20,
+          "profile": [
+            "tech-news",
+            "finance-news"
+          ]
         }
       ]
     },
@@ -373,12 +438,23 @@
       ],
       "keywords": [],
       "min_stars": 10,
-      "max_items": 30
+      "max_items": 30,
+      "profile": "tech-news"
     }
   },
-  "filtering": {
-    "ai_score_threshold": 8.0,
+  "collection": {
     "time_window_hours": 24
+  },
+  "digest": {
+    "max_items": null,
+    "profile_order": [
+      "tech-news",
+      "tech-blog",
+      "finance-news"
+    ],
+    "category_groups": {},
+    "default_group": "other",
+    "default_group_limit": null
   },
   "webhook": {
     "enabled": false,
