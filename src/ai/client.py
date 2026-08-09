@@ -206,7 +206,14 @@ class OpenAIClient(AIClient):
         fallback = "no_key" if config.provider == AIProvider.OLLAMA else None
         api_key = _resolve_api_key(config, fallback=fallback)
 
-        kwargs = {"api_key": api_key}
+        kwargs = {
+            "api_key": api_key,
+            # Horizon already retries high-volume AI work at the item level.
+            # Avoid the SDK honoring long provider Retry-After windows for
+            # every failed classification/analysis call.
+            "max_retries": 0,
+            "timeout": 60.0,
+        }
         base_url = self._resolve_base_url(config)
         if base_url:
             kwargs["base_url"] = base_url

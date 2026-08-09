@@ -148,109 +148,127 @@
         "name": "Alan's Blog - 个人博客",
         "url": "https://www.toalan.com/feed/",
         "enabled": true,
-        "category": "Blog"
+        "category": "Blog",
+        "profile": "tech-blog"
       },
       {
         "name": "数字移民",
         "url": "https://blog.shuziyimin.org/feed",
         "enabled": true,
-        "category": "Blog"
+        "category": "Blog",
+        "profile": "tech-blog"
       },
       {
         "name": "零度解说",
         "url": "https://www.freedidi.com/feed",
         "enabled": true,
-        "category": "Blog"
+        "category": "Blog",
+        "profile": "tech-blog"
       },
       {
         "name": "户晨风",
         "url": "https://rss.toalan.com/bilibili/user/video/49869761",
         "enabled": true,
-        "category": "政建"
+        "category": "政建",
+        "profile": "tech-news"
       },
       {
         "name": "高剑犁 的 bilibili 动态",
         "url": "https://rss.toalan.com/bilibili/user/dynamic/59104725",
         "enabled": true,
-        "category": "政建"
+        "category": "政建",
+        "profile": "tech-news"
       },
       {
         "name": "NASA",
         "url": "https://rss.toalan.com/nasa/apod",
         "enabled": true,
-        "category": "星辰大海"
+        "category": "星辰大海",
+        "profile": "tech-news"
       },
       {
         "name": "Telegram Blog",
         "url": "https://rss.toalan.com/telegram/blog",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-blog"
       },
       {
         "name": "少数派",
         "url": "https://rss.toalan.com/sspai/index",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "微博热搜榜",
         "url": "https://rss.toalan.com/weibo/search/hot",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "一觉醒来发生了什么 - 即刻圈子",
         "url": "https://rss.toalan.com/jike/topic/text/553870e8e4b0cafb0a1bef68",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "有用经验",
         "url": "https://yyjingyan.com/index.php/feed/",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "V2EX-最热主题",
         "url": "https://rss.toalan.com/v2ex/topics/hot",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "BBC 中国",
         "url": "https://feedmaker.kindle4rss.com/feeds/cn-bbc.xml",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "NodeSeek",
         "url": "https://rss.nodeseek.com/",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "IT之家",
         "url": "https://www.ithome.com/rss/",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "36氪 - 24小时热榜",
         "url": "https://rss.toalan.com/36kr/hot-list",
         "enabled": true,
-        "category": "资讯"
+        "category": "资讯",
+        "profile": "tech-news"
       },
       {
         "name": "pixiv 日排行",
         "url": "https://rss.toalan.com/pixiv/ranking/day",
         "enabled": true,
-        "category": "uncategorized"
+        "category": "uncategorized",
+        "profile": "tech-news"
       },
       {
         "name": "pixiv 周排行",
         "url": "https://rss.toalan.com/pixiv/ranking/week",
         "enabled": true,
-        "category": "uncategorized"
+        "category": "uncategorized",
+        "profile": "tech-news"
       },
       {
         "name": "VPS信号旗播报 - Telegram Channel",
@@ -270,55 +288,64 @@
         "name": "Twitter @OpenAI",
         "url": "https://rss.toalan.com/twitter/user/OpenAI",
         "enabled": true,
-        "category": "推特"
+        "category": "推特",
+        "profile": "tech-news"
       },
       {
         "name": "Twitter @Elon Musk",
         "url": "https://rss.toalan.com/twitter/user/elonmusk",
         "enabled": true,
-        "category": "推特"
+        "category": "推特",
+        "profile": "tech-news"
       },
       {
         "name": "机核",
         "url": "https://www.gcores.com/rss",
         "enabled": true,
-        "category": "游戏"
+        "category": "游戏",
+        "profile": "tech-news"
       },
       {
         "name": "老高與小茉 Mr & Mrs Gao - YouTube",
         "url": "https://rss.toalan.com/youtube/user/%40laogao/https%3A%2F%2Fwww.youtube.com%2Ffeeds%2Fvideos.xml%3Fchannel_id%3DUCMUnInmOkrWN4gof9KlhNmQ",
         "enabled": true,
-        "category": "娱乐"
+        "category": "娱乐",
+        "profile": "tech-news"
       },
       {
         "name": "果宝Official 的 bilibili 空间",
         "url": "https://rss.toalan.com/bilibili/user/video/3546569288714792",
         "enabled": true,
-        "category": "娱乐"
+        "category": "娱乐",
+        "profile": "tech-news"
       },
       {
         "name": "川同学不穿童鞋 的 bilibili 动态",
         "url": "https://rss.toalan.com/bilibili/user/dynamic/6065166",
         "enabled": true,
-        "category": "娱乐"
+        "category": "娱乐",
+        "profile": "tech-news"
       },
       {
         "name": "大佬",
         "url": "https://rss.toalan.com/bilibili/user/dynamic/8549577",
         "enabled": true,
-        "category": "娱乐"
+        "category": "娱乐",
+        "profile": "tech-news"
       },
       {
         "name": "bilibili 排行榜-全站",
         "url": "https://rss.toalan.com/bilibili/ranking/0",
         "enabled": true,
-        "category": "娱乐"
+        "category": "娱乐",
+        "profile": "tech-news"
       },
       {
         "name": "澳大利亚签证官网",
         "url": "https://rss.toalan.com/gov/immiau/news",
         "enabled": true,
-        "category": "重要"
+        "category": "重要",
+        "profile": "tech-news"
       },
       {
         "name": "LINUX DO - 最新话题",

@@ -22,6 +22,9 @@ DEFAULT_CONFIG = Path("data/config.json")
 DEFAULT_MANIFEST = Path("data/folo.manifest.json")
 DEFAULT_LOCAL_OPML = Path("data/folo.opml")
 
+BLOG_CATEGORY_HINTS = ("blog", "博客")
+FINANCE_CATEGORY_HINTS = ("finance", "财经", "金融", "股票", "投资")
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -146,6 +149,75 @@ def write_json(path: Path, value: Any) -> None:
     )
 
 
+def get_profile_catalog(config: dict[str, Any]) -> tuple[str, set[str]]:
+    processing = config.get("processing", {})
+    if not isinstance(processing, dict):
+        return "tech-news", {"tech-news"}
+
+    default_profile = str(processing.get("default_profile") or "tech-news")
+    settings = processing.get("profile_settings", {})
+    if isinstance(settings, dict) and settings:
+        available_profiles = {str(profile_id) for profile_id in settings}
+    else:
+        available_profiles = {default_profile}
+    available_profiles.add(default_profile)
+    return default_profile, available_profiles
+
+
+def infer_profile(
+    feed: dict[str, Any],
+    *,
+    default_profile: str,
+    available_profiles: set[str],
+) -> str:
+    text = " ".join(
+        str(feed.get(key) or "")
+        for key in ("category", "name", "url")
+    ).casefold()
+
+    if (
+        "finance-news" in available_profiles
+        and any(hint in text for hint in FINANCE_CATEGORY_HINTS)
+    ):
+        return "finance-news"
+    if (
+        "tech-blog" in available_profiles
+        and any(hint in text for hint in BLOG_CATEGORY_HINTS)
+    ):
+        return "tech-blog"
+    return default_profile
+
+
+def ensure_rss_profiles(config: dict[str, Any]) -> int:
+    sources = config.setdefault("sources", {})
+    rss_sources = sources.setdefault("rss", [])
+    if not isinstance(rss_sources, list):
+        raise ValueError("config.sources.rss must be a list")
+
+    default_profile, available_profiles = get_profile_catalog(config)
+    updated = 0
+    for feed in rss_sources:
+        if not isinstance(feed, dict) or feed.get("profile"):
+            continue
+        feed["profile"] = infer_profile(
+            feed,
+            default_profile=default_profile,
+            available_profiles=available_profiles,
+        )
+        updated += 1
+    return updated
+
+
+def apply_default_rss_profiles(config_path: Path) -> int:
+    config = load_json(config_path, None)
+    if config is None:
+        raise FileNotFoundError(config_path)
+    updated = ensure_rss_profiles(config)
+    if updated:
+        write_json(config_path, config)
+    return updated
+
+
 def sync_config(config_path: Path, manifest_path: Path, feeds: list[dict[str, Any]]) -> None:
     config = load_json(config_path, None)
     if config is None:
@@ -165,12 +237,24 @@ def sync_config(config_path: Path, manifest_path: Path, feeds: list[dict[str, An
     if not isinstance(rss_sources, list):
         raise ValueError("config.sources.rss must be a list")
 
+    default_profile, available_profiles = get_profile_catalog(config)
+    defaulted_profiles = 0
+    for feed in feeds:
+        if not feed.get("profile"):
+            feed["profile"] = infer_profile(
+                feed,
+                default_profile=default_profile,
+                available_profiles=available_profiles,
+            )
+            defaulted_profiles += 1
+
     unmanaged = [
         feed
         for feed in rss_sources
         if not isinstance(feed, dict) or feed.get("url") not in managed_urls
     ]
     sources["rss"] = unmanaged + feeds
+    defaulted_profiles += ensure_rss_profiles(config)
 
     write_json(config_path, config)
     write_json(
@@ -184,7 +268,8 @@ def sync_config(config_path: Path, manifest_path: Path, feeds: list[dict[str, An
 
     print(
         f"Synced {len(feeds)} Folo RSS sources into {config_path}; "
-        f"preserved {len(unmanaged)} unmanaged RSS sources."
+        f"preserved {len(unmanaged)} unmanaged RSS sources; "
+        f"defaulted {defaulted_profiles} RSS profiles."
     )
 
 
@@ -192,6 +277,12 @@ def main() -> int:
     args = parse_args()
     opml_text = read_text_source(args.opml_source)
     if opml_text is None:
+        updated = apply_default_rss_profiles(Path(args.config))
+        if updated:
+            print(
+                f"Applied default profiles to {updated} existing RSS sources "
+                f"in {args.config}."
+            )
         return 0
 
     feeds = parse_opml_feeds(
