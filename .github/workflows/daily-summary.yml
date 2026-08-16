@@ -44,6 +44,7 @@ jobs:
           # Modify these based on your data/config.github.json provider settings
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           HORIZON_AI_BASE_URL: ${{ secrets.HORIZON_AI_BASE_URL }}
+          WHAT_MODEL: ${{ secrets.WHAT_MODEL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           LWN_KEY: ${{ secrets.LWN_KEY }}
